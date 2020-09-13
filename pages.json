@@ -2,6 +2,23 @@
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		// 饮食问卷\
 		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "加载页面"
+			}
+		},
+		{
+			"path": "pages/score/physicalScore",
+			"style": {
+				"usingComponents":{
+					"van-col": "/wxcomponents/vant/dist/col/index",
+					"van-icon": "/wxcomponents/vant/dist/icon/index"
+				},
+				"navigationBarTitleText": "我的体质",
+				"navigationBarBackgroundColor":"#FFFFFF"
+			}
+		},
+		{
 			"path": "pages/question/sexAge/qusetionOne",
 			"style": {
 				"usingComponents":{
@@ -10,12 +27,6 @@
 					 "van-field": "/wxcomponents/vant/dist/field/index"
 				},
 				"navigationBarTitleText": "问题答卷"
-			}
-		},
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "加载页面"
 			}
 		},
 		{
@@ -113,17 +124,7 @@
 		
 		
 		
-		{
-			"path": "pages/score/physicalScore",
-			"style": {
-				"usingComponents":{
-					"van-col": "/wxcomponents/vant/dist/col/index",
-					"van-icon": "/wxcomponents/vant/dist/icon/index"
-				},
-				"navigationBarTitleText": "我的体质",
-				"navigationBarBackgroundColor":"#FFFFFF"
-			}
-		},
+		
 	
 	
 		{

@@ -248,6 +248,20 @@
 					uni.navigateBack()
 				}
 			},
+			// 设置题目格式
+			setQuestionFormat: function(data){
+				for(let itemKey in this.SumActualTotal) {
+					if(Number(this.SumActualTotal[itemKey]) === Number(data)){
+						let setItem = this.SumTotal.filter( v=> {
+								return v.label === itemKey
+							})
+						let list = [];
+						list.push(setItem[0].name);
+						list.push(this.SumActualTotal[itemKey]);
+						return list;
+					}
+				}
+			},
 			// 设置下一题样式
 			setNextStyle:function(){
 		
@@ -301,9 +315,8 @@
 								const list = this.SumTotal.filter( v=> {
 									return v.label === key
 								})
-								this.SumActualTotal[key] = ((this.SumActualTotal[key] / (list[0].value *4))*100).toFixed(2);
+								this.SumActualTotal[key] = Math.ceil(((this.SumActualTotal[key] / (list[0].value *4))*100));
 							}
-							console.log(this.SumActualTotal)
 							
 							// 存储好
 							for(let iKey in this.SumActualTotal) {
@@ -333,39 +346,35 @@
 								})
 								this.physique_result_list.push(list);
 							}
-							for(let itemKey in this.SumActualTotal) {
-								if(Number(this.SumActualTotal[itemKey]) === Number(this.max)){
-									let setItem = this.SumTotal.filter( v=> {
-											return v.label === itemKey
-										})
-									let list = [];
-									list.push(setItem[0].name);
-									list.push(setItem[0].value);
-									this.physique_type.push(list)
-								}
-							}
-							for(let itemKey in this.SumActualTotal) {
-								if(Number(this.SumActualTotal[itemKey]) === Number(this.secondMax)){
-									let setItem = this.SumTotal.filter( v=> {
-											return v.label === itemKey
-										})
-									let list = [];
-									list.push(setItem[0].name);
-									list.push(setItem[0].value);
-									this.physique_type.push(list)
-								}
-							}
-							for(let itemKey in this.SumActualTotal) {
-								if(Number(this.SumActualTotal[itemKey]) === Number(this.thirdMax)){
-									let setItem = this.SumTotal.filter( v=> {
-											return v.label === itemKey
-										})
-									let list = [];
-									list.push(setItem[0].name);
-									list.push(setItem[0].value);
-									this.physique_type.push(list)
-								}
-							}
+							this.physique_type.push(this.setQuestionFormat(this.max));
+							this.physique_type.push(this.setQuestionFormat(this.secondMax));
+							this.physique_type.push(this.setQuestionFormat(this.thirdMax));
+							console.log(this.thirdMax);
+							console.log(this.physique_type);
+							console.log(this.SumActualTotal);
+							// for(let itemKey in this.SumActualTotal) {
+							// 	if(Number(this.SumActualTotal[itemKey]) === Number(this.max)){
+							// 		let setItem = this.SumTotal.filter( v=> {
+							// 				return v.label === itemKey
+							// 			})
+							// 		let list = [];
+							// 		list.push(setItem[0].name);
+							// 		list.push(setItem[0].value);
+							// 		this.physique_type.push(list)
+							// 	}
+							// }
+							// for(let itemKey in this.SumActualTotal) {
+							// 	if(Number(this.SumActualTotal[itemKey]) === Number(this.secondMax)){
+							// 		let setItem = this.SumTotal.filter( v=> {
+							// 				return v.label === itemKey
+							// 			})
+							// 		let list = [];
+							// 		list.push(setItem[0].name);
+							// 		list.push(setItem[0].value);
+							// 		this.physique_type.push(list)
+							// 	}
+							// }
+					
 							// if(this.physique_type.length === 2) {
 							// 	if(this.physique_type[0] !== '特禀质') {
 							// 		this.physique_type.splice(1, 1)
@@ -375,7 +384,7 @@
 							// 		}
 							// 	}
 							// }else {
-								this.physique_type = this.physique_type.slice(0, 3)
+							// this.physique_type = this.physique_type.slice(0, 3)
 							// 	if(this.physique_type[0] !== '特禀质') {
 							// 		this.physique_type.splice(1, 1)
 							// 	}else {
@@ -401,6 +410,7 @@
 							uni.showLoading({
 							    title: '加载中'
 							});
+							let that = this;
 							uni.request({
 							    url: utils.env + '/Home/Report/addReport', //仅为示例，并非真实接口地址。
 							    data: {
@@ -419,15 +429,14 @@
 							        'custom-header': 'application/json' //自定义请求头信息
 							    },
 							    success: function (res) {
-									console.log(res)
 									uni.hideLoading();
 							        if(res.data.status === '1000'){
 										uni.setStorageSync('child_id', res.data.data.child_id)
-										let that = this;
 										uni.redirectTo({
 											url: '../../score/physicalScore?value=5'
 										})
-												
+										that.max = that.thirdMax = that.secondMax = 0;
+										that.physique_type = [];		
 										uni.showToast({
 										    title: res.data.msg,
 										    duration: 2000

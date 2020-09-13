@@ -11,9 +11,9 @@
 			   <view class="score-test">
 				   <text style="color: #AFAFAF">您孩子的体质属于</text>
 				   <view class="score-btn" >
-				   	  <view class="main-btn" v-for="item in physique_type" :key="item">
+				   	  <view class="main-btn" v-for="item in physique_typeList" :key="item">
 					    <view >{{item[0]}}</view>
-						<view style="font-size: 16px">{{item[1] === null? '': item[1]}}</view>
+						<view style="font-size: 16px" v-if="item[1] !== null">{{item[1] === null? '': item[1]}}分</view>
 					  </view>
 				   </view>
 				  <!-- <view style="color: #A8A8A8;display: none;" >兼顾</view> -->
@@ -51,6 +51,7 @@
 				btnText: '返回',
 				btn_return: false,
 				physique_type: [],
+				physique_typeList: [],
 				physique_type_enable: []
 				
 			}
@@ -58,10 +59,9 @@
 		methods: {
 			getScore: function(data){
 				// 获取分数以及体质名称
-				console.log(data)
 				if(data.physique_type.length > 0) {
 					this.physique_type = data.physique_type;
-			
+			        this.setListFormat();
 					if(uni.getStorageSync('isdisease') !== 0){
 						this.btnText = '饮食问卷';
 						this.btn_return = true;
@@ -79,6 +79,43 @@
 				// 	this.physique_type_enable = data.physique_type_enable;
 				// }
 			},
+		    setListFormat: function(){
+				// 判断第一个是不是最大
+				if(this.physique_type[0][1] >= this.physique_type[1][1] && this.physique_type[0][1] >= this.physique_type[2][1])
+				{
+					console.log(123)
+					this.physique_typeList.push(this.physique_type[0])
+					// 判断后面两个函数谁大
+					if(this.physique_type[1][1] >= this.physique_type[2][1]){
+						this.physique_typeList.push(this.physique_type[1])
+						this.physique_typeList.push(this.physique_type[2])
+					}else{
+						this.physique_typeList.push(this.physique_type[2])
+						this.physique_typeList.push(this.physique_type[1])
+					}
+				// 判断第一个比第二大吗 
+				}else if(this.physique_type[0][1] >= this.physique_type[1][1]){
+					//  判断 第一个比第三个大吗
+						this.physique_typeList.push(this.physique_type[2])
+						this.physique_typeList.push(this.physique_type[0])
+						this.physique_typeList.push(this.physique_type[1])
+				}else if(this.physique_type[0][1] >= this.physique_type[2][1]){
+					this.physique_typeList.push(this.physique_type[1])
+					this.physique_typeList.push(this.physique_type[0])
+					this.physique_typeList.push(this.physique_type[2])
+				}else {
+					// 判断后面两个函数谁大
+					if(this.physique_type[1][1] >= this.physique_type[2][1] ){
+						this.physique_typeList.push(this.physique_type[1])
+						this.physique_typeList.push(this.physique_type[2])
+						this.physique_typeList.push(this.physique_type[0])
+					}else{
+						this.physique_typeList.push(this.physique_type[2])
+						this.physique_typeList.push(this.physique_type[1])
+						this.physique_typeList.push(this.physique_type[0])
+					}
+				}
+			},
 			getedScore: function(){
 				let that = this;
 				let userInfo = JSON.parse(uni.getStorageSync('user_info'))
@@ -94,17 +131,22 @@
 				        'custom-header': 'application/json' //自定义请求头信息
 				    },
 				    success: function (res) {
-						console.log(res.data)
 						if(res.data.status === '1000'){
 							if(res.data.data.physique_type.length !== 0){
 								res.data.data.physique_type.forEach(val => {
 									let arr = [];
-									arr.push(val.name)
-									arr.push(val.value)
+									arr.push(val.name);
+									arr.push(Number(val.value));
 									that.physique_type.push(arr);
 								})
+								if((that.physique_type[0][1] !==undefined && that.physique_type[0][1] !==null)
+								&& (that.physique_type[1][1] !==undefined && that.physique_type[1][1] !==null)  
+								&&  (that.physique_type[2][1] !==undefined && that.physique_type[2][1] !==null) ){
+									that.setListFormat();
+								}else {
+									that.physique_typeList = that.physique_type;
+								}
 							}
-							console.log(that.physique_type)
 							if(res.data.data.is_diet === '1'){
 								if(res.data.data.is_do === '0'){
 									that.btnText = '饮食问卷';

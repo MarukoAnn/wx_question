@@ -1,0 +1,5513 @@
+[
+	{
+		"title": "家庭一般生活情况调查",
+		"subscript": "【请根据实际情况填写数值或在符合的选项前划√ 】",
+		"type": 2,
+		"itemSelcet": [
+			{
+            "label": [
+				{"b_text": "您的孩子平均每日睡眠时间为", "input": 1,"value": "", "select":[], "a_text":"小时", "input_type":"digit"}
+			],
+              "color":{
+                "itemBgc": "#E8F5FF",
+                "itemTitleBgc": "#8ECDFF"
+              },
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "false"
+			},
+            "focus":  "A",
+			"error": "false",
+			"questionjson": [],
+			"status": 0},
+			{
+			"label": [
+				{"b_text": "您的家庭居住面积为", "input": 1,"value": "", "select":[], "a_text":"平方米", "input_type":"digit"}
+			],
+            "color":{
+              "itemBgc": "#E8F5FF",
+              "itemTitleBgc": "#8ECDFF"
+            },
+            "focus":  "B",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "false"
+			},
+			"error": "false",
+			"questionjson": [],
+			"status": 0},
+			{
+			"label": [
+				{"b_text": "家庭人口数为", "input": 1,"value": "", "select":[], "a_text":"人", "input_type":"digit"}
+			],
+            "color":{
+              "itemBgc": "#E8F5FF",
+              "itemTitleBgc": "#8ECDFF"
+            },
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "false"
+			},
+            "focus":  "C",
+			"error": "false",
+			"questionjson": [],
+			"status": 0},
+			{
+			"label": [
+				{"b_text": "您的孩子平均每日完成作业的时间是晚上", "input": 1,"value": "", "select":[], "a_text":"点,平均一周有", "input_type":"digit"},
+				{"b_text": "", "input": 1,"value": "", "select":[], "a_text":"个课外班。（若无作业及课外班，则填“无”）", "input_type":"text"}
+			],
+			"color":{
+			  "itemBgc": "#E8F5FF",
+			  "itemTitleBgc": "#8ECDFF"
+			},
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "false"
+			},
+			"focus":  "D",
+			"error": "false",
+			"questionjson": [],
+			"status": 0}
+		]
+	},
+	{
+		"title": "家庭一般生活情况调查",
+		"subscript": "【请根据实际情况填写数值或在符合的选项前划√ 】",
+		"type": 1,
+		"label": [
+		],
+		"selectList": [
+			{"label": "家中饲养宠物（如猫、狗）",
+			"itemBgc": "#FFFFFF",
+			"b_itemBgc": "#E5E5E5",
+			"b_checkbcg": "#E2E2E2",
+			"t_color": "#000",
+			 "i_hidden": "false",
+			 "status": 0, "focus":  "A"
+            },
+			{"label": "家中环境潮湿（如墙面返潮，墙面等处有较多霉斑霉点）",
+			 "itemBgc": "#FFFFFF",
+			 "b_itemBgc": "#E5E5E5",
+			 "b_checkbcg": "#E2E2E2",
+			 "t_color": "#000",
+			 "i_hidden": "false",
+			 "status": 0,"focus":  "B"
+			 },
+			{
+				"label": "家中有人现在或曾经吸烟",
+				"itemBgc": "#FFFFFF",
+				"b_itemBgc": "#E5E5E5",
+				"b_checkbcg": "#E2E2E2",
+				"t_color": "#000",
+				"i_hidden": "false",
+				"status": 0,"focus":  "C"
+				},
+			{
+			"label": "近2年居住地有改变",
+			"itemBgc": "#FFFFFF",
+			"b_itemBgc": "#E5E5E5",
+			"b_checkbcg": "#E2E2E2",
+			"t_color": "#000",
+			"i_hidden": "false",
+			"status": 0,"focus":  "D"
+			},
+			{
+				"label": "近2年按照相关指导调整饮食习惯",
+				"itemBgc": "#FFFFFF",
+				"b_itemBgc": "#E5E5E5",
+				"b_checkbcg": "#E2E2E2",
+				"t_color": "#000",
+				"i_hidden": "false",
+				"status": 0,"focus":  "E"
+				},
+			{
+				"label": "以上均无",
+				"itemBgc": "#FFFFFF",
+				"b_itemBgc": "#E5E5E5",
+				"b_checkbcg": "#E2E2E2",
+				"t_color": "#000",
+				"i_hidden": "false",
+				"status": 0,"focus":  "F"
+				}
+		]
+	},
+	{
+			"title": "一、谷、薯类",
+			"subscript": {
+				"title": [
+					{"text": "请您根据孩子的饮食情况，选择相应的食用频率单位，即", "type": 0},
+					{"text": "周或月", "type": 1},
+					{"text": "【可选】", "type": 2},
+					{"text": "。并根据孩子所吃食物的", "type": 0},
+					{"text": "体积", "type": 1},
+					{"text": "估计等级,", "type": 0},
+					{"text": "若列举的食物种类，孩子食用频率", "type": 0},
+					{"text": "<1次/月", "type": 1},
+					{"text": "或", "type": 0},
+					{"text": "不吃", "type": 1},
+					{"text": "，则记频次为“", "type": 0},
+					{"text": "0", "type": 1},
+					{"text": "”", "type": 1}
+				]
+			},
+			"type": 2,
+		    "flag": "flag",
+			"itemSelcet": [
+				{
+	            "label": [
+					{"b_text": "大米，食用频率为", "input": 1, "value": "",  "a_text": "次/",
+					"select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						},	"status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"status": 0}
+					], "text": "每次食用量等级为（1  2  3  4）", "type": "1","input_type":"digit"}
+				],
+				"scr_hidden": "true",
+				"text_scr": [
+					{"text": "以", "type": 0},
+					{"text": "图片中的食物量", "type": 1},
+					{"text": "为例，", "type": 0},
+					{"text": "≥1份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "4", "type": 1},
+					{"text": ",", "type": 0},
+					{"text": "3/4份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "3", "type": 1},
+					{"text": ",", "type": 1},
+					{"text": "1/2份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "2", "type": 1},
+					{"text": ",", "type": 0},
+					{"text": "依次类推", "type": 1},
+					{"text": "。", "type": 0}
+				],
+	            "imgUrl": ["https://www.softcasing.com/images/food/ic_rice.jpg",
+				"https://www.softcasing.com/images/food/ic_rice_r.jpg"],
+				"help": {
+					"showhelpText": "true"
+				},
+	            "focus":  "A",
+	            "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+	              {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0},
+				{
+					"label": [
+						{"b_text": "面食，食用频率为", "input": 1, "value": "",  "a_text": "次/",
+						"select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},	"status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）", "type": "1","input_type":"digit"}
+				],
+	            "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+				"text_scr": [
+				  	{"text": "以", "type": 0},
+				  	{"text": "图片中的食物量", "type": 1},
+				  	{"text": "为例，", "type": 0},
+				  	{"text": "≥1份", "type": 1},
+				  	{"text": "记录等级为", "type": 0},
+				  	{"text": "4", "type": 1},
+				  	{"text": ",", "type": 0},
+				  	{"text": "3/4份", "type": 1},
+				  	{"text": "记录等级为", "type": 0},
+				  	{"text": "3", "type": 1},
+				  	{"text": ",", "type": 1},
+				  	{"text": "1/2份", "type": 1},
+				  	{"text": "记录等级为", "type": 0},
+				  	{"text": "2", "type": 1},
+				  	{"text": ",", "type": 0},
+				  	{"text": "依次类推", "type": 1},
+					{"text": "。", "type": 0}
+				  ],
+				"imgUrl": ["https://www.softcasing.com/images/food/ic_bread.jpg",
+				"https://www.softcasing.com/images/food/ic_bread_r.jpg"],
+	            "focus":  "B",
+				"scr_hidden": "true",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0},
+				{
+				"label": [
+					{"b_text": "小米，食用频率为", "input": 1, "value": "",  "a_text": "次/",
+					"select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						},"status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						}, "status": 0}
+					], "text": "每次食用量等级为（1  2  3  4）", "type": "1","input_type":"digit"}
+				],
+				"text_scr": [
+					{"text": "以", "type": 0},
+					{"text": "图片中的食物量", "type": 1},
+					{"text": "为例，", "type": 0},
+					{"text": "≥1份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "4", "type": 1},
+					{"text": ",", "type": 0},
+					{"text": "3/4份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "3", "type": 1},
+					{"text": ",", "type": 1},
+					{"text": "1/2份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "2", "type": 1},
+					{"text": ",", "type": 0},
+					{"text": "依次类推", "type": 1},
+					{"text": "。", "type": 0}
+				],
+				"imgUrl": ["https://www.softcasing.com/images/food/ic_millet_r.jpg","https://www.softcasing.com/images/food/ic_millet.jpg"],
+	            "scr_hidden": "true",
+				"color":{
+	              "itemBgc": "#E8F5FF",
+	              "itemTitleBgc": "#8ECDFF"
+	            },
+	            "focus":  "C",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0},
+				{
+				"label": [
+					{"b_text": "红薯，一年内平均食用频率为", "input": 1, "value": "", "a_text": "次/",
+					"select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						},"status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},	"status": 0}
+					], "text": "每次食用量等级为（1  2  3  4）", "type": "1","input_type":"digit"}
+				],
+				"text_scr": [
+					{"text": "以", "type": 0},
+					{"text": "图片中的食物量", "type": 1},
+					{"text": "为例，", "type": 0},
+					{"text": "≥1份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "4", "type": 1},
+					{"text": ",", "type": 0},
+					{"text": "3/4份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "3", "type": 1},
+					{"text": ",", "type": 1},
+					{"text": "1/2份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "2", "type": 1},
+					{"text": ",", "type": 0},
+					{"text": "依次类推", "type": 1}
+				],
+				"imgUrl": ["https://www.softcasing.com/images/food/ic_potato.jpg","https://www.softcasing.com/images/food/ic_potato_r.jpg"],
+	            "scr_hidden": "true",
+				"color":{
+	              "itemBgc": "#E8F5FF",
+	              "itemTitleBgc": "#8ECDFF"
+	            },
+	            "focus":  "D",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0}
+			]
+		},
+	{
+		"title": "二、蔬菜(果实类)",
+		"subscript": {
+			"title": [
+				{"text": "请您根据孩子的饮食情况，选择相应的食用频率单位。由于蔬菜有明显的季节性，因此请根据提示记录该蔬菜", "type": 0},
+				{"text": "一年中的平均", "type": 1},
+				{"text": "食入频次为__次（", "type": 0},
+				{"text": "周或月", "type": 1},
+				{"text": ")", "type": 0},
+				{"text": "【可选】", "type": 2},
+				{"text": "。并根据孩子所吃食物的", "type": 0},
+				{"text": "体积", "type": 1},
+				{"text": "估计等级。若列举的食物种类，孩子食用频率", "type": 0},
+				{"text": "<1次/月", "type": 1},
+				{"text": "或“", "type": 0},
+				{"text": "不吃", "type": 1},
+				{"text": "，则记频次为“", "type": 0},
+				{"text": "0", "type": 1},
+				{"text": "”", "type": 0}
+			]
+		},
+		"type": 2,
+		"flag": "flag",
+		"itemSelcet": [
+			{
+			  "type":"title",
+			  "text_title":"A、果实类",
+			  "label": [],
+			  "color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			  },
+			  "scr_hidden": "true",
+			  "imageList": [
+				  "https://www.softcasing.com/images/food/ic_cucumber.jpg",
+				  "https://www.softcasing.com/images/food/ic_cucumber_r.jpg"
+			  ],
+			  "text_scr": [
+				{"text": "以", "type": 0},
+				{"text": "图片中的食物量", "type": 1},
+				{"text": "为例，", "type": 0},
+				{"text": "≥1份", "type": 1},
+				{"text": "记录等级为", "type": 0},
+				{"text": "4", "type": 1},
+				{"text": ",", "type": 0},
+				{"text": "3/4份", "type": 1},
+				{"text": "记录等级为", "type": 0},
+				{"text": "3", "type": 1},
+				{"text": ",", "type": 1},
+				{"text": "1/2份", "type": 1},
+				{"text": "记录等级为", "type": 0},
+				{"text": "2", "type": 1},
+				{"text": ",", "type": 0},
+				{"text": "依次类推", "type": 1},
+				{"text": "。", "type": 0}
+			  ],
+			  "focus":  "A",
+			  "help": {
+				 "showhelpText": "true"
+			   },
+			"error": "false",
+			"status": 1},
+			{
+			  "label": [
+				{"b_text": "西红柿，一年中的平均食用频率为", "input": 1,"value": "", "a_text": "次/", "select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "", "status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "", "status": 0}
+				], "text": "每次食用量等级为（1  2  3  4）", "type": "1","input_type":"digit"}
+			],
+			"color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			},
+			"focus":  "A",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"error": "false",
+			"questionjson": [{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 0},
+			{
+			  "label": [
+				{"b_text": "黄  瓜，一年中的平均食用频率为", "input": 1, "value": "", "a_text": "次/","select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "","status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "","status": 0}
+				], "text": "每次食用量等级为（1  2  3  4）","type": "1","input_type":"digit"}
+			],
+			"color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			},
+			"focus":  "B",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"error": "false",
+			"questionjson": [{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 0},
+			{
+			"label": [
+				{"b_text": "茄  子，一年中的平均食用频率为", "input": 1, "value": "","a_text": "次/","select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "","status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "","status": 0}
+				], "text": "每次食用量等级为（1  2  3  4）", "type": "1","input_type":"digit"}
+			],
+			"text_scr": [
+				{"text": "以", "type": 0},
+				{"text": "图片中的食物量", "type": 1},
+				{"text": "为例，", "type": 0},
+				{"text": "≥1份", "type": 1},
+				{"text": "记录等级为", "type": 0},
+				{"text": "4", "type": 1},
+				{"text": ",", "type": 0},
+				{"text": "3/4份", "type": 1},
+				{"text": "记录等级为", "type": 0},
+				{"text": "3", "type": 1},
+				{"text": ",", "type": 1},
+				{"text": "1/2份", "type": 1},
+				{"text": "记录等级为", "type": 0},
+				{"text": "2", "type": 1},
+				{"text": ",", "type": 0},
+				{"text": "依次类推", "type": 1},
+				{"text": "。", "type": 0}
+			],
+			"imgUrl": ["https://www.softcasing.com/images/food/ic_eggplant.jpg","https://www.softcasing.com/images/food/ic_eggplant_r.jpg"],
+			"color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			},
+			"focus":  "C",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"error": "false",
+			"questionjson":[{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 0},
+			{
+				"label": [
+				{"b_text": " 南  瓜，一年中的平均食用频率为", "input": 1, "value": "","a_text": "次/","select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "","status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "","status": 0}
+				], "text": "每次食用量等级为（1  2  3  4）", "type": "1","input_type":"digit"}
+			],
+			  "color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			  },
+			  "focus":  "D",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"error": "false",
+			"questionjson": [{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 0},
+			{
+				"label": [
+				{"b_text": "豆  角，一年中的平均食用频率为", "input": 1, "value": "", "a_text": "次/","select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "","status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "","status": 0}
+				], "text": "每次食用量等级为（1  2  3  4）", "type": "1","input_type":"digit"}
+			],
+			  "color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			  },
+			  "focus":  "E",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"error": "false",
+			"questionjson": [{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 0},
+			{
+			"label": [
+				{"b_text": "丝  瓜，一年中的平均食用频率为", "input": 1,"value": "","a_text": "次/","select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "","status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "","status": 0}
+				], "text": "每次食用量等级为（1  2  3  4）", "type": "1","input_type":"digit"}
+			  ],
+			  "color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			  },
+			  "focus":  "F",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"error": "false",
+			"questionjson": [{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 0},
+			{
+			"label": [
+				{"b_text": "青  椒，一年中的平均食用频率为", "input": 1,"value": "", "a_text": "次/","select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "","status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "","status": 0}
+				], "text": "每次食用量等级为（1  2  3  4）","type": "1","input_type":"digit"}
+			],
+			  "color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			  },
+			  "focus":  "G",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"error": "false",
+			"questionjson":[{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 0},
+			{
+			"label": [
+				{"b_text": "冬  瓜，一年中的平均食用频率为", "input": 1, "value": "", "a_text": "次/","select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "","status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "","status": 0}
+				], "text": "每次食用量等级为（1  2  3  4）","type": "1","input_type":"digit"}
+			],
+			  "color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			  },
+			  "focus":  "H",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"error": "false",
+			"questionjson": [{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 0}
+		]
+	},
+	{
+		"title": "二、蔬菜(根块茎类)",
+		"subscript": {
+			"title": [
+				{"text": "请您根据孩子的饮食情况，选择相应的食用频率单位。由于蔬菜有明显的季节性，因此请根据提示记录该蔬菜", "type": 0},
+				{"text": "一年中的平均", "type": 1},
+				{"text": "食入频次为__次（", "type": 0},
+				{"text": "周或月", "type": 1},
+				{"text": ")", "type": 0},
+				{"text": "【可选】", "type": 2},
+				{"text": "。并根据孩子所吃食物的", "type": 0},
+				{"text": "体积", "type": 1},
+				{"text": "估计等级。若列举的食物种类，孩子食用频率", "type": 0},
+				{"text": "<1次/月", "type": 1},
+				{"text": "或“", "type": 0},
+				{"text": "不吃", "type": 1},
+				{"text": "，则记频次为“", "type": 0},
+				{"text": "0", "type": 1},
+				{"text": "”", "type": 0}
+			]
+		},
+		"type": 2,
+		"flag": "flag",
+		"itemSelcet": [
+			{
+			  "type":"title",
+			  "text_title":"B、根块茎类",
+			  "label": [],
+			  "color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			  },
+			  "scr_hidden": "true",
+			  "imageList": [
+				  "https://www.softcasing.com/images/food/ic_radish.jpg",
+				  "https://www.softcasing.com/images/food/ic_radish_r.jpg"
+			  ],
+			  "text_scr": [
+				{"text": "以", "type": 0},
+				{"text": "图片中的食物量", "type": 1},
+				{"text": "为例，", "type": 0},
+				{"text": "≥1份", "type": 1},
+				{"text": "记录等级为", "type": 0},
+				{"text": "4", "type": 1},
+				{"text": ",", "type": 0},
+				{"text": "3/4份", "type": 1},
+				{"text": "记录等级为", "type": 0},
+				{"text": "3", "type": 1},
+				{"text": ",", "type": 1},
+				{"text": "1/2份", "type": 1},
+				{"text": "记录等级为", "type": 0},
+				{"text": "2", "type": 1},
+				{"text": ",", "type": 0},
+				{"text": "依次类推", "type": 1},
+				{"text": "。", "type": 0}
+			  ],
+			  "focus":  "A",
+			  "help": {
+				 "showhelpText": "true"
+			   },
+			"error": "false",
+			"status": 1},
+			{
+			"label": [
+				{"b_text": "土豆，一年中的平均食用频率为", "input": 1, "value": "","a_text": "次/","select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "","status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "","status": 0}
+				], "text": "每次食用量等级为（1  2  3  4）","type": "1","input_type":"digit"}
+			],
+			"color":{
+			  "itemBgc": "#E8F5FF",
+			  "itemTitleBgc": "#8ECDFF"
+			},
+			  "focus":  "L",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"error": "false",
+			"questionjson": [{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 0},
+			{
+			"label": [
+				{"b_text": "白萝卜或青萝卜，一年中的平均食用频率为", "input": 1, "value": "" ,"a_text": "次/","select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "","status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "","status": 0}
+				], "text": "每次食用量等级为（1  2  3  4）（以上两种蔬菜，任意一种吃过1次，频率+1，例：若孩子本周食用白萝卜1次，青萝卜1次，则食用频率记为2次/周）" ,"type": "1","input_type":"digit"}
+			],
+			"text_scr": [
+				{"text": "以", "type": 0},
+				{"text": "图片中的食物量", "type": 1},
+				{"text": "为例，", "type": 0},
+				{"text": "≥1份", "type": 1},
+				{"text": "记录等级为", "type": 0},
+				{"text": "4", "type": 1},
+				{"text": ",", "type": 0},
+				{"text": "3/4份", "type": 1},
+				{"text": "记录等级为", "type": 0},
+				{"text": "3", "type": 1},
+				{"text": ",", "type": 1},
+				{"text": "1/2份", "type": 1},
+				{"text": "记录等级为", "type": 0},
+				{"text": "2", "type": 1},
+				{"text": ",", "type": 0},
+				{"text": "依次类推", "type": 1},
+				{"text": "。", "type": 0}
+			],
+			"imgUrl": ["https://www.softcasing.com/images/food/ic_radish.jpg",
+			"https://www.softcasing.com/images/food/ic_radish_r.jpg"],
+			"focus":  "G",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			  },
+			"error": "false",
+			"questionjson": [{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 0},
+			{
+			"label": [
+				{"b_text": "胡萝卜， 一年中的平均食用频率为", "input": 1, "value": "", "a_text": "次/","select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "","status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "","status": 0}
+				], "text": "每次食用量等级为（1  2  3  4）","type": "1","input_type":"digit"}
+			],
+			"color":{
+			  "itemBgc": "#E8F5FF",
+			  "itemTitleBgc": "#8ECDFF"
+			},
+			  "focus":  "K",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"error": "false",
+			"questionjson": [{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 0},
+			{
+			"label": [
+				{"b_text": "洋葱，一年中的平均食用频率为", "input": 1, "value": "", "a_text": "次/","select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "","status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "","status": 0}
+				], "text": "每次食用量等级为（1  2  3  4）","type": "1","input_type":"digit"}
+			],
+			  "color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			  },
+			  "focus":  "M",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"error": "false",
+			"questionjson": [{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 0},
+			{
+			"label": [
+				{"b_text": "莲藕, 一年中的平均食用频率为", "input": 1, "value": "", "a_text": "次/","select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "","status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "","status": 0}
+				], "text": "每次食用量等级为（1  2  3  4）","type": "1","input_type":"digit"}
+			],
+			  "color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			  },
+			  "focus":  "N",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"error": "false",
+			"questionjson": [{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 0}
+		]
+	},
+	{
+				"title": "二、蔬菜(叶菜类)",
+				"subscript": {
+			        "title": [
+			        	{"text": "请您根据孩子的饮食情况，选择相应的食用频率单位。由于蔬菜有明显的季节性，因此请根据提示记录该蔬菜", "type": 0},
+			        	{"text": "一年中的平均", "type": 1},
+			        	{"text": "食入频次为__次（", "type": 0},
+			        	{"text": "周或月", "type": 1},
+						{"text": ")", "type": 0},
+						{"text": "【可选】", "type": 2},
+			        	{"text": "。并根据孩子所吃食物的", "type": 0},
+			        	{"text": "体积", "type": 1},
+			        	{"text": "估计等级。若列举的食物种类，孩子食用频率", "type": 0},
+			        	{"text": "<1次/月", "type": 1},
+			        	{"text": "或“", "type": 0},
+			        	{"text": "不吃", "type": 1},
+			        	{"text": "，则记频次为“", "type": 0},
+			        	{"text": "0", "type": 1},
+			        	{"text": "”", "type": 0}
+			        ]
+				},
+				"type": 2,
+				"flag": "flag",
+				"itemSelcet": [
+					{
+					  "type":"title",
+					  "text_title":"C、叶菜类",
+					  "label": [],
+					  "color":{
+					    "itemBgc": "#E8F5FF",
+					    "itemTitleBgc": "#8ECDFF"
+					  },
+					  "imageList": [
+						  "https://www.softcasing.com/images/food/ic_lettuce.jpg",
+						   "https://www.softcasing.com/images/food/ic_lettuce_r.jpg"
+					  ],
+					  "scr_hidden": "true",
+					  "text_scr": [
+						  {"text": "以", "type": 0},
+						  {"text": "图片中的食物量", "type": 1},
+						  {"text": "为例，", "type": 0},
+						  {"text": "≥1份", "type": 1},
+						  {"text": "记录等级为", "type": 0},
+						  {"text": "4", "type": 1},
+						  {"text": ",", "type": 0},
+						  {"text": "3/4份", "type": 1},
+						  {"text": "记录等级为", "type": 0},
+						  {"text": "3", "type": 1},
+						  {"text": ",", "type": 1},
+						  {"text": "1/2份", "type": 1},
+						  {"text": "记录等级为", "type": 0},
+						  {"text": "2", "type": 1},
+						  {"text": ",", "type": 0},
+						  {"text": "依次类推", "type": 1},
+						  {"text": "。", "type": 0}
+					  ],
+					  "focus":  "A",
+					  "help": {
+						 "showhelpText": "true"
+					   },
+					"error": "false",
+					"status": 1},
+					{
+					"label": [
+						{"b_text": "白  菜，一年中的平均食用频率为", "input": 1, "value": "","a_text": "次/","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						],"input_type":"digit", "text": "每次食用量等级为（1  2  3  4）","type": "1"}
+					],
+		            "color":{
+		                "itemBgc": "#E8F5FF",
+		                "itemTitleBgc": "#8ECDFF"
+		              },
+		            "focus":  "R",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson":[{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+					"status": 0},
+					{
+					"label": [
+						{"b_text": "生  菜，一年中的平均食用频率为", "input": 1, "value": "","a_text": "次/","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						],"input_type":"digit", "text": "每次食用量等级为（1  2  3  4）","type": "1"}
+					],
+					  "color":{
+					    "itemBgc": "#E8F5FF",
+					    "itemTitleBgc": "#8ECDFF"
+					  },
+					  "focus":  "R",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson":[{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+					"status": 0},
+					{
+					"label": [
+						{"b_text": "卷 心 菜，一年中的平均食用频率为", "input": 1, "value": "","a_text": "次/","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						],"input_type":"digit", "text": "每次食用量等级为（1  2  3  4）","type": "1"}
+					],
+					  "color":{
+					    "itemBgc": "#E8F5FF",
+					    "itemTitleBgc": "#8ECDFF"
+					  },
+					  "focus":  "R",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson":[{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+					"status": 0},
+					{
+					"label": [
+						{"b_text": "菠 菜，一年中的平均食用频率为", "input": 1, "value": "","a_text": "次/","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						],"input_type":"digit", "text": "每次食用量等级为（1  2  3  4）","type": "1"}
+					],
+					  "color":{
+					    "itemBgc": "#E8F5FF",
+					    "itemTitleBgc": "#8ECDFF"
+					  },
+					  "focus":  "S",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson":[{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+					"status": 0},
+					{
+					"label": [
+						{"b_text": "茼蒿菜，一年中的平均食用频率为", "input": 1, "value": "","a_text": "次/","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						],"input_type":"digit", "text": "每次食用量等级为（1  2  3  4）","type": "1"}
+					],
+					  "color":{
+					    "itemBgc": "#E8F5FF",
+					    "itemTitleBgc": "#8ECDFF"
+					  },
+					  "focus":  "S",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson":[{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+					"status": 0},
+					{
+					"label": [
+						{"b_text": "空心菜，一年中的平均食用频率为", "input": 1, "value": "","a_text": "次/","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						],"input_type":"digit", "text": "每次食用量等级为（1  2  3  4）","type": "1"}
+					],
+		              "color":{
+		                "itemBgc": "#E8F5FF",
+		                "itemTitleBgc": "#8ECDFF"
+		              },
+		              "focus":  "S",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson":[{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+					"status": 0},
+				    {
+					"label": [
+						{"b_text": "芹  菜，一年中的平均食用频率为", "input": 1, "value": "","a_text": "次/","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）","type": "1","input_type":"digit"}
+					],
+		              "color":{
+		                "itemBgc": "#E8F5FF",
+		                "itemTitleBgc": "#8ECDFF"
+		              },
+		              "focus":  "U",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson": [{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+					"status": 0},
+					{
+					"label": [
+						{"b_text": "茴  香，一年中的平均食用频率为", "input": 1, "value": "", "a_text": "次/","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）","type": "1","input_type":"digit"}
+					],
+		              "color":{
+		                "itemBgc": "#E8F5FF",
+		                "itemTitleBgc": "#8ECDFF"
+		              },
+		              "focus":  "V",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson": [{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+					"status": 0},
+					{
+					"label": [
+						{"b_text": "韭  菜，一年中的平均食用频率为", "input": 1, "value": "","a_text": "次/","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）","type": "1","input_type":"digit"}
+					],
+		              "color":{
+		                "itemBgc": "#E8F5FF",
+		                "itemTitleBgc": "#8ECDFF"
+		              },
+		              "focus":  "W",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson": [{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+					"status": 0},
+					{
+					"label": [
+						{"b_text": "菜花（或西兰花），一年中的平均食用频率为", "input": 1, "value": "" ,"a_text": "次/","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）（以上两种蔬菜，任意一种吃过1次，频率+1，例：若孩子本周食用菜花1次，西兰花1次，则食用频率记为2次/周）","type": "1","input_type":"digit"}
+					],
+					  "color":{
+					    "itemBgc": "#E8F5FF",
+					    "itemTitleBgc": "#8ECDFF"
+					  },
+					  "focus":  "Q",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"text_scr": [
+						{"text": "以", "type": 0},
+						{"text": "图片中的食物量", "type": 1},
+						{"text": "为例，", "type": 0},
+						{"text": "≥1份", "type": 1},
+						{"text": "记录等级为", "type": 0},
+						{"text": "4", "type": 1},
+						{"text": ",", "type": 0},
+						{"text": "3/4份", "type": 1},
+						{"text": "记录等级为", "type": 0},
+						{"text": "3", "type": 1},
+						{"text": ",", "type": 1},
+						{"text": "1/2份", "type": 1},
+						{"text": "记录等级为", "type": 0},
+						{"text": "2", "type": 1},
+						{"text": ",", "type": 0},
+						{"text": "依次类推", "type": 1},
+						{"text": "。", "type": 0}
+					],
+					"scr_hidden": "true",
+					"imgUrl": ["https://www.softcasing.com/images/food/ic_broccoli.jpg",
+					"https://www.softcasing.com/images/food/ic_broccoli_r.jpg"],
+					"error": "false",
+					"questionjson": [{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+					"status": 0}
+				]
+			},
+	{
+				"title": "二、蔬菜(菌藻类)",
+				"subscript": {
+					"title": [
+						{"text": "请您根据孩子的饮食情况，选择相应的食用频率单位。由于蔬菜有明显的季节性，因此请根据提示记录该蔬菜", "type": 0},
+						{"text": "一年中的平均", "type": 1},
+						{"text": "食入频次为__次（", "type": 0},
+						{"text": "周或月", "type": 1},
+						{"text": ")", "type": 0},
+						{"text": "【可选】", "type": 2},
+						{"text": "。并根据孩子所吃食物的", "type": 0},
+						{"text": "体积", "type": 1},
+						{"text": "估计等级。若列举的食物种类，孩子食用频率", "type": 0},
+						{"text": "<1次/月", "type": 1},
+						{"text": "或“", "type": 0},
+						{"text": "不吃", "type": 1},
+						{"text": "，则记频次为“", "type": 0},
+						{"text": "0", "type": 1},
+						{"text": "”", "type": 0}
+					]
+				},
+				"type": 2,
+				"flag": "flag",
+				"itemSelcet": [
+					{
+					  "type":"title",
+					  "text_title":"D、菌藻类",
+					  "label": [],
+					  "color":{
+					    "itemBgc": "#E8F5FF",
+					    "itemTitleBgc": "#8ECDFF"
+					  },
+					  "scr_hidden": "true",
+					  "imageList": [
+						  "https://www.softcasing.com/images/food/ic_mushroom.jpg",
+						  "https://www.softcasing.com/images/food/ic_mushroom_r.jpg"
+					  ],
+					  "text_scr": [
+					  	{"text": "以", "type": 0},
+					  	{"text": "图片中的食物量", "type": 1},
+					  	{"text": "为例，", "type": 0},
+					  	{"text": "≥1份", "type": 1},
+					  	{"text": "记录等级为", "type": 0},
+					  	{"text": "4", "type": 1},
+					  	{"text": ",", "type": 0},
+					  	{"text": "3/4份", "type": 1},
+					  	{"text": "记录等级为", "type": 0},
+					  	{"text": "3", "type": 1},
+					  	{"text": ",", "type": 1},
+					  	{"text": "1/2份", "type": 1},
+					  	{"text": "记录等级为", "type": 0},
+					  	{"text": "2", "type": 1},
+					  	{"text": ",", "type": 0},
+					  	{"text": "依次类推", "type": 1},
+					  	{"text": "。", "type": 0}
+					  ],
+					  "focus":  "A",
+					  "help": {
+						 "showhelpText": "true"
+					   },
+					"error": "false",
+					"status": 1},
+					{
+					"label": [
+						{"b_text": "平  菇，一年中的平均食用频率为 ", "input": 1, "value": "", "a_text": "次/","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）","type": "1","input_type":"digit"}
+					],
+		              "color":{
+		                "itemBgc": "#E8F5FF",
+		                "itemTitleBgc": "#8ECDFF"
+		              },
+		              "focus":  "Y",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson": [{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+					"status": 0},
+					{
+					"label": [
+						{"b_text": "海  带，一年中的平均食用频率为", "input": 1, "value": "","a_text": "次/","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）","type": "1","input_type":"digit"}
+					],
+		              "color":{
+		                "itemBgc": "#E8F5FF",
+		                "itemTitleBgc": "#8ECDFF"
+		              },
+		            "focus":  "qA",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson":[{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+					"status": 0},
+					{
+					"label": [
+						{"b_text": "香  菇，一年中的平均食用频率为", "input": 1, "value": "","a_text": "次/","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）","type": "1","input_type":"digit"}
+					],
+		              "color":{
+		                "itemBgc": "#E8F5FF",
+		                "itemTitleBgc": "#8ECDFF"
+		              },
+		              "focus":  "qC",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson": [{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+					"status": 0},
+					{
+					"label": [
+						{"b_text": "木  耳，一年中的平均食用频率为", "input": 1, "value": "","a_text": "次/","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）","type": "1","input_type":"digit"}
+					],
+		              "color":{
+		                "itemBgc": "#E8F5FF",
+		                "itemTitleBgc": "#8ECDFF"
+		              },
+		              "focus":  "qD",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson": [{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+					"status": 0},
+					{
+					"label": [
+						{"b_text": "其他食用的蔬菜如", "input": 1, "value": "","select": [], "a_text": "，一年","input_type":"text"},
+						{"b_text": "中的平均食用频率为", "input": 1, "value": "","a_text": "次/","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）","type": "1","input_type":"digit"}
+					],
+		              "color":{
+		                "itemBgc": "#E8F5FF",
+		                "itemTitleBgc": "#8ECDFF"
+		              },
+					"type": "x",
+					"text_scr": [],
+		            "focus":  "qF",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson": [{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+					"status": 1},
+					{
+					"label": [
+						{"b_text": "食用各类蔬菜比例：", "input": 0, "value": "","a_text":"", "select": [],"input_type":"number"},
+						{"b_text": "果实类:根茎类:叶菜类:菌菇类 ≈ ", "input": 0, "value": "","a_text":"", "select": [],"input_type":"number"},
+						{"b_text": "", "input": 1, "value": "","a_text":"", "select": [],"input_type":"number"},
+						{"b_text": ":", "input": 1, "value": "", "name": 1, "select": [],"input_type":"number"},
+						{"b_text": ":", "input": 1, "value": "", "name": 2, "select": [],"input_type":"number"},
+						{"b_text": ":", "input": 1, "value": "", "name": 3, "select": [],"input_type":"number"}
+					],
+				    "color":{
+					"itemBgc": "#E8F5FF",
+					"itemTitleBgc": "#8ECDFF"
+				    },
+					"type": "y",
+				    "focus":  "qG",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson": [],
+					"status": 0}
+				]
+			},
+	{
+			"title": "三、肉类 ",
+			"subscript": {
+				"title": [
+					{"text": "请您根据孩子的饮食情况，选择相应的食用频率单位，即", "type": 0},
+					{"text": "周或月", "type": 1},
+					{"text": "【可选】", "type": 2},
+					{"text": "。并根据孩子所吃食物的", "type": 0},
+					{"text": "体积", "type": 1},
+					{"text": "估计等级。若列举的食物种类，孩子食用频率", "type": 0},
+					{"text": "<1次/月", "type": 1},
+					{"text": "或“", "type": 0},
+					{"text": "不吃", "type": 1},
+					{"text": "，则记频次为“", "type": 0},
+					{"text": "0", "type": 1},
+					{"text": "”", "type": 0}
+				]
+			},
+			"type": 2,
+			"flag": "flag",
+			"itemSelcet": [
+				{
+				  "type":"title",
+				  "text_title":"鱼肉类",
+				  "label": [],
+				  "color":{
+				    "itemBgc": "#E8F5FF",
+				    "itemTitleBgc": "#8ECDFF"
+				  },
+				  "imageList": [
+					  "https://www.softcasing.com/images/food/ic_hfash.jpg"
+				  ],
+				  "scr_hidden": "true",
+				  "text_scr": [
+				  	{"text": "以", "type": 0},
+				  	{"text": "图片中的食物量", "type": 1},
+				  	{"text": "为例，", "type": 0},
+				  	{"text": "≥1份", "type": 1},
+				  	{"text": "记录等级为", "type": 0},
+				  	{"text": "4", "type": 1},
+				  	{"text": ",", "type": 0},
+				  	{"text": "3/4份", "type": 1},
+				  	{"text": "记录等级为", "type": 0},
+				  	{"text": "3", "type": 1},
+				  	{"text": ",", "type": 1},
+				  	{"text": "1/2份", "type": 1},
+				  	{"text": "记录等级为", "type": 0},
+				  	{"text": "2", "type": 1},
+				  	{"text": ",", "type": 0},
+				  	{"text": "依次类推", "type": 1},
+				  	{"text": "。", "type": 0}
+				  ],
+				  "focus":  "A",
+				  "help": {
+					 "showhelpText": "true"
+				   },
+				"error": "false",
+				"status": 1},
+				{
+					"label": [
+					{"b_text": "海鱼肉，食用频率为", "input": 1, "value": "", "a_text": "次/", "select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "每次食用量等级为（1  2  3  4）", "type":"1","input_type":"digit"}
+				],
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	              "focus":  "E",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0},
+				{
+					"label": [
+					{"b_text": "河鱼肉，食用频率为", "input": 1, "value": "", "a_text": "次/", "select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "每次食用量等级为（1  2  3  4）", "type":"1","input_type":"digit"}
+				],
+				"text_scr": [
+					{"text": "以", "type": 0},
+					{"text": "图片中的食物量", "type": 1},
+					{"text": "为例，", "type": 0},
+					{"text": "≥1份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "4", "type": 1},
+					{"text": ",", "type": 0},
+					{"text": "3/4份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "3", "type": 1},
+					{"text": ",", "type": 1},
+					{"text": "1/2份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "2", "type": 1},
+					{"text": ",", "type": 0},
+					{"text": "依次类推", "type": 1},
+					{"text": "。", "type": 0}
+				],
+				"imgUrl": ["https://www.softcasing.com/images/food/ic_hfash.jpg","https://www.softcasing.com/images/food/ic_hfash_r.jpg"],
+				  "color":{
+				    "itemBgc": "#E8F5FF",
+				    "itemTitleBgc": "#8ECDFF"
+				  },
+				  "focus":  "F",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0},
+				{
+				  "type":"title",
+				  "text_title":"虾类",
+				  "label": [],
+				  "color":{
+				    "itemBgc": "#E8F5FF",
+				    "itemTitleBgc": "#8ECDFF"
+				  },
+				  "imageList": [
+				  ],
+				  "text_scr": [
+				  	{"text": "以", "type": 0},
+				  	{"text": "图片中的食物量", "type": 1},
+				  	{"text": "为例，", "type": 0},
+				  	{"text": "≥1份", "type": 1},
+				  	{"text": "记录等级为", "type": 0},
+				  	{"text": "4", "type": 1},
+				  	{"text": ",", "type": 0},
+				  	{"text": "3/4份", "type": 1},
+				  	{"text": "记录等级为", "type": 0},
+				  	{"text": "3", "type": 1},
+				  	{"text": ",", "type": 1},
+				  	{"text": "1/2份", "type": 1},
+				  	{"text": "记录等级为", "type": 0},
+				  	{"text": "2", "type": 1},
+				  	{"text": ",", "type": 0},
+				  	{"text": "依次类推", "type": 1},
+				  	{"text": "。", "type": 0}
+				  ],
+				  "focus":  "A",
+				  "help": {
+					 "showhelpText": "true"
+				   },
+				"error": "false",
+				"status": 1},
+				{
+				"label": [
+					{"b_text": "海 虾 ，食用频率为", "input": 1, "value": "", "a_text": "次/", "select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "每次食用量等级为（1  2  3  4）", "type":"1","input_type":"digit"}
+				],
+				"text_scr": [
+					{"text": "以", "type": 0},
+					{"text": "图片中的食物量", "type": 1},
+					{"text": "为例，", "type": 0},
+					{"text": "≥1份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "4", "type": 1},
+					{"text": ",", "type": 0},
+					{"text": "3/4份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "3", "type": 1},
+					{"text": ",", "type": 1},
+					{"text": "1/2份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "2", "type": 1},
+					{"text": ",", "type": 0},
+					{"text": "依次类推", "type": 1},
+					{"text": "。", "type": 0}
+				],
+				"scr_hidden": "true",
+				"imgUrl": ["https://www.softcasing.com/images/food/ic_hshrimp.jpg",
+				"https://www.softcasing.com/images/food/ic_hshrimp_r.jpg"],
+				"color":{
+				    "itemBgc": "#E8F5FF",
+				    "itemTitleBgc": "#8ECDFF"
+				},
+				"focus":  "G",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0},
+				{
+				"label": [
+					{"b_text": "河虾（小虾） ，食用频率为", "input": 1, "value": "", "a_text": "次/", "select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "每次食用量等级为（1  2  3  4）", "type":"1","input_type":"digit"}
+				],
+				"text_scr": [
+					{"text": "以", "type": 0},
+					{"text": "图片中的食物量", "type": 1},
+					{"text": "为例，", "type": 0},
+					{"text": "≥1份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "4", "type": 1},
+					{"text": ",", "type": 0},
+					{"text": "3/4份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "3", "type": 1},
+					{"text": ",", "type": 1},
+					{"text": "1/2份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "2", "type": 1},
+					{"text": ",", "type": 0},
+					{"text": "依次类推", "type": 1},
+					{"text": "。", "type": 0}
+				],
+				"imgUrl": ["https://www.softcasing.com/images/food/ic_shrimp.jpg","https://www.softcasing.com/images/food/ic_shrimp_r.jpg"],
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+				"scr_hidden": "true",
+	            "focus":  "H",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0},
+				{
+				  "type":"title",
+				  "text_title":"畜禽类",
+				  "label": [],
+				  "color":{
+				    "itemBgc": "#E8F5FF",
+				    "itemTitleBgc": "#8ECDFF"
+				  },
+				  "scr_hidden": "true",
+				  "imageList": [
+					  "https://www.softcasing.com/images/food/ic_pork.jpg",
+					  "https://www.softcasing.com/images/food/ic_pork_r.jpg"
+				  ],
+				  "text_scr": [
+				  	{"text": "以", "type": 0},
+				  	{"text": "图片中的食物量", "type": 1},
+				  	{"text": "为例，", "type": 0},
+				  	{"text": "≥1份", "type": 1},
+				  	{"text": "记录等级为", "type": 0},
+				  	{"text": "4", "type": 1},
+				  	{"text": ",", "type": 0},
+				  	{"text": "3/4份", "type": 1},
+				  	{"text": "记录等级为", "type": 0},
+				  	{"text": "3", "type": 1},
+				  	{"text": ",", "type": 1},
+				  	{"text": "1/2份", "type": 1},
+				  	{"text": "记录等级为", "type": 0},
+				  	{"text": "2", "type": 1},
+				  	{"text": ",", "type": 0},
+				  	{"text": "依次类推", "type": 1},
+				  	{"text": "。", "type": 0}
+				  ],
+				  "focus":  "A",
+				  "help": {
+					 "showhelpText": "true"
+				   },
+				"error": "false",
+				"status": 1},
+				{
+					"label": [
+					{"b_text": "羊肉，食用频率为", "input": 1, "value": "", "a_text": "次/", "select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "每次食用量等级为（1  2  3  4）", "type": "1","input_type":"digit"}
+				],
+				  "color":{
+				    "itemBgc": "#E8F5FF",
+				    "itemTitleBgc": "#8ECDFF"
+				  },
+				  "text_scr": [
+						{"text": "以", "type": 0},
+						{"text": "图片中的食物量", "type": 1},
+						{"text": "为例，", "type": 0},
+						{"text": "≥1份", "type": 1},
+						{"text": "记录等级为", "type": 0},
+						{"text": "4", "type": 1},
+						{"text": ",", "type": 0},
+						{"text": "3/4份", "type": 1},
+						{"text": "记录等级为", "type": 0},
+						{"text": "3", "type": 1},
+						{"text": ",", "type": 1},
+						{"text": "1/2份", "type": 1},
+						{"text": "记录等级为", "type": 0},
+						{"text": "2", "type": 1},
+						{"text": ",", "type": 0},
+						{"text": "依次类推", "type": 1},
+						{"text": "。", "type": 0}
+				  ],
+				  "imgUrl": ["https://www.softcasing.com/images/food/ic_porkone.jpg","https://www.softcasing.com/images/food/ic_porktwo.jpg"],
+				  "focus":  "B",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0},
+				{
+					"label": [
+					{"b_text": "牛肉，食用频率为", "input": 1, "value": "", "a_text": "次/", "select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "每次食用量等级为（1  2  3  4）", "type":"1","input_type":"digit"}
+				],
+				  "color":{
+				    "itemBgc": "#E8F5FF",
+				    "itemTitleBgc": "#8ECDFF"
+				  },
+				  "text_scr": [
+						{"text": "以", "type": 0},
+						{"text": "图片中的食物量", "type": 1},
+						{"text": "为例，", "type": 0},
+						{"text": "≥1份", "type": 1},
+						{"text": "记录等级为", "type": 0},
+						{"text": "4", "type": 1},
+						{"text": ",", "type": 0},
+						{"text": "3/4份", "type": 1},
+						{"text": "记录等级为", "type": 0},
+						{"text": "3", "type": 1},
+						{"text": ",", "type": 1},
+						{"text": "1/2份", "type": 1},
+						{"text": "记录等级为", "type": 0},
+						{"text": "2", "type": 1},
+						{"text": ",", "type": 0},
+						{"text": "依次类推", "type": 1},
+						{"text": "。", "type": 0}
+				  ],
+				  "imgUrl": ["https://www.softcasing.com/images/food/ic_pork.jpg","https://www.softcasing.com/images/food/ic_pork_r.jpg"],
+				  "focus":  "C",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0},
+				{
+					"label": [
+					{"b_text": " 鸡肉，食用频率为", "input": 1, "value": "","a_text": "次/", "select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "每次食用量等级为（1  2  3  4）", "type":"1","input_type":"digit"}
+				],
+				"color":{
+				    "itemBgc": "#E8F5FF",
+				    "itemTitleBgc": "#8ECDFF"
+				},
+				"text_scr": [
+					{"text": "以", "type": 0},
+					{"text": "图片中的食物量", "type": 1},
+					{"text": "为例，", "type": 0},
+					{"text": "≥1份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "4", "type": 1},
+					{"text": ",", "type": 0},
+					{"text": "3/4份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "3", "type": 1},
+					{"text": ",", "type": 1},
+					{"text": "1/2份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "2", "type": 1},
+					{"text": ",", "type": 0},
+					{"text": "依次类推", "type": 1},
+					{"text": "。", "type": 0}
+				],
+				"imgUrl": ["https://www.softcasing.com/images/food/ic_porkone.jpg","https://www.softcasing.com/images/food/ic_porktwo.jpg"],
+				"focus":  "D",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0},
+				{
+				  "label": [
+					{"b_text": "猪肉，食用频率为", "input": 1, "value": "", "a_text": "次/", "select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "每次食用量等级为（1  2  3  4）", "type":"1","input_type":"digit"}
+				],
+				"text_scr": [
+					{"text": "以", "type": 0},
+					{"text": "图片中的食物量", "type": 1},
+					{"text": "为例，", "type": 0},
+					{"text": "≥1份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "4", "type": 1},
+					{"text": ",", "type": 0},
+					{"text": "3/4份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "3", "type": 1},
+					{"text": ",", "type": 1},
+					{"text": "1/2份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "2", "type": 1},
+					{"text": ",", "type": 0},
+					{"text": "依次类推", "type": 1},
+					{"text": "。", "type": 0}
+				],
+				"imgUrl": ["https://www.softcasing.com/images/food/ic_pork.jpg","https://www.softcasing.com/images/food/ic_pork_r.jpg"],
+				"focus":  "A",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				  "color":{
+				    "itemBgc": "#E8F5FF",
+				    "itemTitleBgc": "#8ECDFF"
+				  },
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0}
+			]
+		},
+	{
+			"title": "四、水果类",
+			"subscript": {
+				"title": [
+					{"text": "请您根据孩子的饮食情况，选择相应的食用频率单位。由于水果有明显的季节性，因此请根据提示记录该水果", "type": 0},
+					{"text": "一年中的平均", "type": 1},
+					{"text": "食入频次为__次(", "type": 0},
+					{"text": "周或月", "type": 1},
+					{"text": ")", "type": 0},
+					{"text": "【可选】", "type": 2},
+					{"text": "。并根据孩子所吃食物的", "type": 0},
+					{"text": "体积", "type": 1},
+					{"text": "估计等级。若列举的食物种类，孩子食用频率", "type": 0},
+					{"text": "<1次/月", "type": 1},
+					{"text": "或“", "type": 0},
+					{"text": "不吃", "type": 1},
+					{"text": "，则记频次为“", "type": 0},
+					{"text": "0", "type": 1},
+					{"text": "”", "type": 0}
+				]
+			},
+			"type": 2,
+			"flag": "flag",
+			"itemSelcet": [
+				{
+				  "type":"title",
+				  "text_title":"以下食物食用量参照如下图片估计使用量",
+				  "label": [],
+				  "color":{
+				    "itemBgc": "#E8F5FF",
+				    "itemTitleBgc": "#8ECDFF"
+				  },
+				  "imageList": [
+					  "https://www.softcasing.com/images/food/ic_apple.jpg"
+				  ],
+				  "scr_hidden": "true",
+				  "text_scr": [
+				  	{"text": "以", "type": 0},
+				  	{"text": "图片中的食物量", "type": 1},
+				  	{"text": "为例，", "type": 0},
+				  	{"text": "≥1份", "type": 1},
+				  	{"text": "记录等级为", "type": 0},
+				  	{"text": "4", "type": 1},
+				  	{"text": ",", "type": 0},
+				  	{"text": "3/4份", "type": 1},
+				  	{"text": "记录等级为", "type": 0},
+				  	{"text": "3", "type": 1},
+				  	{"text": ",", "type": 1},
+				  	{"text": "1/2份", "type": 1},
+				  	{"text": "记录等级为", "type": 0},
+				  	{"text": "2", "type": 1},
+				  	{"text": ",", "type": 0},
+				  	{"text": "依次类推", "type": 1},
+				  	{"text": "。", "type": 0}
+				  ],
+				  "focus":  "A",
+				  "help": {
+					 "showhelpText": "true"
+				   },
+				"error": "false",
+				"status": 1},
+				{
+	              "label": [
+					{"b_text": "苹  果，一年中的平均食用频率为", "input": 0, "value": "", "a_text": "", "select": [], "type":"1","input_type":"digit"},
+					{"b_text": "", "input": 1, "value": "", "a_text": "次/", "type":"1","select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "每次食用量等级为（1  2  3  4）"}
+				],
+	            "focus":  "B",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+	            "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	            },
+				"status": 0},
+				{
+					"label": [
+					{"b_text": "梨，一年中的平均食用频率为", "input": 0, "value": "", "a_text": "", "select":[], "text": "", "type":"1","input_type":"digit"},
+					{"b_text": "", "input": 1, "value": "", "a_text":"次/", "type":"1","select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text":"每次食用量等级为（1  2  3  4）"}
+				],
+	            "focus":  "C",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+	            "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	            },
+				"status": 0},
+				{
+					"label": [
+					{"b_text": "香蕉，一年中的平均食用频率为", "input": 0, "value": "", "a_text":"","select": [], "type": "1","input_type":"digit"},
+					{"b_text": "", "input": 1, "value": "", "a_text":"次/","type":"1", "select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "每次食用量等级为（1  2  3  4）"}
+				],
+	            "focus":  "D",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+	            "color":{
+	               "itemBgc": "#E8F5FF",
+	               "itemTitleBgc": "#8ECDFF"
+	            },
+				"status": 0},
+				{
+				"label": [
+					{"b_text": "橙子，一年中的平均食用频率为", "input": 0, "value": "", "a_text":"","select": [],"type":"1","input_type":"digit"},
+					{"b_text": "", "input": 1, "value": "", "a_text":"次/","type":"1", "select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "每次食用量等级为（1  2  3  4）"}
+				],
+				"focus":  "E",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"color":{
+				    "itemBgc": "#E8F5FF",
+				    "itemTitleBgc": "#8ECDFF"
+				  },
+				"status": 0},
+				{
+				"label": [
+					{"b_text": "桃子，一年中的平均食用频率为", "input": 0, "value": "", "a_text":"","select": [],"type":"1","input_type":"digit"},
+					{"b_text": "", "input": 1, "value": "", "a_text":"次/", "type":"1","select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "每次食用量等级为（1  2  3  4）"}
+				],
+				"focus":  "F",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				  "color":{
+				    "itemBgc": "#E8F5FF",
+				    "itemTitleBgc": "#8ECDFF"
+				  },
+				"status": 0},
+				{
+				  "type":"title",
+				  "text_title":"以下食物食用量参照如下图片估计使用量",
+				  "label": [],
+				  "color":{
+				    "itemBgc": "#E8F5FF",
+				    "itemTitleBgc": "#8ECDFF"
+				  },
+				  "imageList": [],
+				  "text_scr": [
+				  	{"text": "以", "type": 0},
+				  	{"text": "图片中的食物量", "type": 1},
+				  	{"text": "为例，", "type": 0},
+				  	{"text": "≥1份", "type": 1},
+				  	{"text": "记录等级为", "type": 0},
+				  	{"text": "4", "type": 1},
+				  	{"text": ",", "type": 0},
+				  	{"text": "3/4份", "type": 1},
+				  	{"text": "记录等级为", "type": 0},
+				  	{"text": "3", "type": 1},
+				  	{"text": ",", "type": 1},
+				  	{"text": "1/2份", "type": 1},
+				  	{"text": "记录等级为", "type": 0},
+				  	{"text": "2", "type": 1},
+				  	{"text": ",", "type": 0},
+				  	{"text": "依次类推", "type": 1},
+				  	{"text": "。", "type": 0}
+				  ],
+				  "focus":  "G",
+				  "help": {
+					 "showhelpText": "true"
+				   },
+				"error": "false",
+				"status": 1},
+				{
+				"label": [
+					{"b_text": "猕猴挑，一年中的平均食用频率为", "input": 0, "value": "", "a_text":"","select": [], "type":"1","input_type":"digit"},
+					{"b_text": "", "input": 1, "value": "", "a_text":"次/", "type":"1","select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "每次食用量等级为（1  2  3  4）"}
+				],
+				"scr_hidden":"true",
+				"text_scr": [
+					{"text": "以", "type": 0},
+					{"text": "图片中的食物量", "type": 1},
+					{"text": "为例，", "type": 0},
+					{"text": "≥1份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "4", "type": 1},
+					{"text": ",", "type": 0},
+					{"text": "3/4份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "3", "type": 1},
+					{"text": ",", "type": 1},
+					{"text": "1/2份", "type": 1},
+					{"text": "记录等级为", "type": 0},
+					{"text": "2", "type": 1},
+					{"text": ",", "type": 0},
+					{"text": "依次类推", "type": 1},
+					{"text": "。", "type": 0}
+				],
+				"imgUrl": ["https://www.softcasing.com/images/food/ic_kiwifruit.jpg"],
+				"focus":  "H",
+				"help": {
+					"imgurl": "../../../static/image/ic_kiwifruit.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				  "color":{
+				    "itemBgc": "#E8F5FF",
+				    "itemTitleBgc": "#8ECDFF"
+				  },
+				"status": 0}
+				]
+		},
+	{
+				"title": "四、水果类",
+				"subscript": {
+					"title": [
+						{"text": "请您根据孩子的饮食情况，选择相应的食用频率单位。由于水果有明显的季节性，因此请根据提示记录该水果", "type": 0},
+						{"text": "一年中的平均", "type": 1},
+						{"text": "食入频次为__次（", "type": 0},
+						{"text": "周或月", "type": 1},
+						{"text": ")", "type": 0},
+						{"text": "【可选】", "type": 2},
+						{"text": "。并根据孩子所吃食物的", "type": 0},
+						{"text": "体积", "type": 1},
+						{"text": "估计等级。若列举的食物种类，孩子食用频率", "type": 0},
+						{"text": "<1次/月", "type": 1},
+						{"text": "或“", "type": 0},
+						{"text": "不吃", "type": 1},
+						{"text": "，则记频次为“", "type": 0},
+						{"text": "0", "type": 1},
+						{"text": "”", "type": 0}
+					]
+				},
+				"type": 2,
+				"itemSelcet": [
+					{
+					  "type":"title",
+					  "text_title":"以下食物食用量参照如下图片估计使用量",
+					  "label": [],
+					  "color":{
+					    "itemBgc": "#E8F5FF",
+					    "itemTitleBgc": "#8ECDFF"
+					  },
+					  "imageList": [
+						  "https://www.softcasing.com/images/food/ic_mango.jpg",
+						  "https://www.softcasing.com/images/food/ic_mango_r.jpg"
+					  ],
+					  "scr_hidden": "true",
+					  "text_scr": [
+					  	{"text": "以", "type": 0},
+					  	{"text": "图片中的食物量", "type": 1},
+					  	{"text": "为例，", "type": 0},
+					  	{"text": "≥1份", "type": 1},
+					  	{"text": "记录等级为", "type": 0},
+					  	{"text": "4", "type": 1},
+					  	{"text": ",", "type": 0},
+					  	{"text": "3/4份", "type": 1},
+					  	{"text": "记录等级为", "type": 0},
+					  	{"text": "3", "type": 1},
+					  	{"text": ",", "type": 1},
+					  	{"text": "1/2份", "type": 1},
+					  	{"text": "记录等级为", "type": 0},
+					  	{"text": "2", "type": 1},
+					  	{"text": ",", "type": 0},
+					  	{"text": "依次类推", "type": 1},
+					  	{"text": "。", "type": 0}
+					  ],
+					  "focus":  "A",
+					  "help": {
+						 "showhelpText": "true"
+					   },
+					"error": "false",
+					"status": 1},
+					{
+					"label": [
+						{"b_text": "芒 果，一年中的平均食用频率为", "input": 0, "value": "", "a_text":"","select": [],"type":"1","input_type":"digit"},
+						{"b_text": "", "input": 1, "value": "", "a_text":"次/", "type":"1","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）"}
+					],
+		              "focus":  "B",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson": [{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+		              "color":{
+		                "itemBgc": "#E8F5FF",
+		                "itemTitleBgc": "#8ECDFF"
+		              },
+					"status": 0},
+					{
+					"label": [
+						{"b_text": "榴 莲，一年中的平均食用频率为", "input": 0, "value": "", "a_text":"","select": [],"type":"1","input_type":"digit"},
+						{"b_text": "", "input": 1, "value": "", "a_text":"次/","type":"1", "select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）"}
+					],
+					  "focus":  "C",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson": [{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+					  "color":{
+					    "itemBgc": "#E8F5FF",
+					    "itemTitleBgc": "#8ECDFF"
+					  },
+					"status": 0},
+					{
+					"label": [
+						{"b_text": "哈密瓜，一年中的平均食用频率为", "input": 1, "value": "","type":"1", "a_text":"次/","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）", "type": "1","input_type":"digit"}
+					],
+		            "focus":  "D",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson": [{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+		              "color":{
+		                "itemBgc": "#E8F5FF",
+		                "itemTitleBgc": "#8ECDFF"
+		              },
+					"status": 0},
+					{
+					"label": [
+						{"b_text": " 西  瓜，一年中的平均食用频率为", "input": 0, "value": "", "a_text":"","select": [], "type":"1","input_type":"digit"},
+						{"b_text": "", "input": 1, "value": "", "a_text":"次/", "type":"1","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）"}
+					],
+					"focus":  "E",
+					"help": {
+						"imgurl": "../../../static/image/ic_help.png",
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson": [{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+					  "color":{
+					    "itemBgc": "#E8F5FF",
+					    "itemTitleBgc": "#8ECDFF"
+					  },
+					"status": 0},
+					{
+					"label": [
+						{"b_text": "柚  子，一年中的平均食用频率为", "input": 0, "value": "", "a_text":"","select": [],"type":"1","input_type":"digit"},
+						{"b_text": "", "input": 1, "value": "", "a_text":"次/", "type":"1","select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）"}
+					],
+		              "focus":  "F",
+		              "color":{
+		                "itemBgc": "#E8F5FF",
+		                "itemTitleBgc": "#8ECDFF"
+		              },
+					"help": {
+						"showhelpText": "true"
+					},
+					"error": "false",
+					"questionjson": [{
+							 "label": 1,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {"label": 2,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}, {
+							"label": 3,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						},
+						 {
+							"label": 4,"status":0, "color": {
+								"ftcolor": "#000",
+								"t_iconBgc": "#707070",
+								"t_borBgc": "#DADBDC",
+								"bgc":"#E8F5FF",
+								"t_innericonBgc": "#FFFFFF"
+							}
+						}],
+					"status": 0}
+				]
+			},
+	{
+		"title": "四、水果类",
+		"subscript": {
+			"title": [
+				{"text": "请您根据孩子的饮食情况，选择相应的食用频率单位。由于水果有明显的季节性，因此请根据提示记录该水果", "type": 0},
+				{"text": "一年中的平均", "type": 1},
+				{"text": "食入频次为__次（", "type": 0},
+				{"text": "周或月", "type": 1},
+				{"text": ")", "type": 0},
+				{"text": "【可选】", "type": 2},
+				{"text": "。并根据孩子所吃食物的", "type": 0},
+				{"text": "体积", "type": 1},
+				{"text": "估计等级。若列举的食物种类，孩子食用频率", "type": 0},
+				{"text": "<1次/月", "type": 1},
+				{"text": "或“", "type": 0},
+				{"text": "不吃", "type": 1},
+				{"text": "，则记频次为“", "type": 0},
+				{"text": "0", "type": 1},
+				{"text": "”", "type": 0}
+			]
+		},
+		"type": 2,
+		"itemSelcet": [
+			{
+			  "type":"title",
+			  "text_title":"以下食物食用量参照如下图片估计使用量",
+			  "label": [],
+			  "color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			  },
+			  "imageList": [
+				  "https://www.softcasing.com/images/food/ic_grape.jpg",
+				  "https://www.softcasing.com/images/food/ic_grape_r.jpg"
+			  ],
+			  "scr_hidden": "true",
+			  "text_scr": [
+				{"text": "以", "type": 0},
+				{"text": "图片中的食物量", "type": 1},
+				{"text": "为例，", "type": 0},
+				{"text": "≥1份", "type": 1},
+				{"text": "记录等级为", "type": 0},
+				{"text": "4", "type": 1},
+				{"text": ",", "type": 0},
+				{"text": "3/4份", "type": 1},
+				{"text": "记录等级为", "type": 0},
+				{"text": "3", "type": 1},
+				{"text": ",", "type": 1},
+				{"text": "1/2份", "type": 1},
+				{"text": "记录等级为", "type": 0},
+				{"text": "2", "type": 1},
+				{"text": ",", "type": 0},
+				{"text": "依次类推", "type": 1},
+				{"text": "。", "type": 0}
+			  ],
+			  "focus":  "A",
+			  "help": {
+				 "showhelpText": "true"
+			   },
+			"error": "false",
+			"status": 1},
+			{
+			"label": [
+				{"b_text": "蓝  莓，一年中的平均食用频率为", "input": 0, "value": "", "a_text":"","select": [],"type":"1","input_type":"digit"},
+				{"b_text": "", "input": 1, "value": "", "a_text":"次/","type":"1", "select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "","status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "","status": 0}
+				], "text": "每次食用量等级为（1  2  3  4）"}
+			],
+			"color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			},
+			"focus":  "B",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"error": "false",
+			"questionjson": [{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 0},
+			{
+			"label": [
+				{"b_text": "葡  萄，一年中的平均食用频率为", "input": 0, "value": "", "a_text":"","select": [],"type":"1","input_type":"digit"},
+				{"b_text": "", "input": 1, "value": "", "a_text":"次/","type":"1", "select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "","status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "","status": 0}
+				], "text": "每次食用量等级为（1  2  3  4）"}
+			],
+			"color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			},
+			"focus":  "C",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"error": "false",
+			"questionjson": [{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 0},
+			{
+			"label": [
+				{"b_text": "樱  桃，一年中的平均食用频率为", "input": 0, "value": "", "a_text":"","select": [],"type":"1","input_type":"digit"},
+				{"b_text": "", "input": 1, "value": "", "a_text":"次/", "type":"1","select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "","status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "","status": 0}
+				], "text": "每次食用量等级为（1  2  3  4）"}
+			],
+			"color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			},
+			"focus":  "D",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"error": "false",
+			"questionjson": [{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 0},
+			{
+			  "type":"title",
+			  "text_title":"以下食物食用量参照如下图片估计使用量",
+			  "label": [],
+			  "color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			  },
+			  "imageList": [
+				  "https://www.softcasing.com/images/food/ic_strawberry.jpg",
+				  "https://www.softcasing.com/images/food/ic_strawberry_r.jpg"
+			  ],
+			  "scr_hidden": "true",
+			  "text_scr": [
+				{"text": "以", "type": 0},
+				{"text": "图片中的食物量", "type": 1},
+				{"text": "为例，", "type": 0},
+				{"text": "≥1份", "type": 1},
+				{"text": "记录等级为", "type": 0},
+				{"text": "4", "type": 1},
+				{"text": ",", "type": 0},
+				{"text": "3/4份", "type": 1},
+				{"text": "记录等级为", "type": 0},
+				{"text": "3", "type": 1},
+				{"text": ",", "type": 1},
+				{"text": "1/2份", "type": 1},
+				{"text": "记录等级为", "type": 0},
+				{"text": "2", "type": 1},
+				{"text": ",", "type": 0},
+				{"text": "依次类推", "type": 1},
+				{"text": "。", "type": 0}
+			  ],
+			  "focus":  "E",
+			  "help": {
+				 "showhelpText": "true"
+			   },
+			"error": "false",
+			"status": 1},
+			{
+			"label": [
+				{"b_text": "草  莓，一年中的平均食用频率为", "input": 0, "value": "", "a_text":"","select": [],"type":"1","input_type":"digit"},
+				{"b_text": "", "input": 1, "value": "", "a_text":"次/", "type":"1","select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "","status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "","status": 0}
+				], "text": "每次食用量等级为（1  2  3  4）"}
+			],
+			"color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			},
+			"focus":  "F",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"error": "false",
+			"questionjson": [{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 0},
+			{
+			"label": [
+				{"b_text": "荔  枝，一年中的平均食用频率为", "input": 0, "value": "", "a_text":"","select": [],"type":"1","input_type":"digit"},
+				{"b_text": "", "input": 1, "value": "", "a_text":"次/", "type":"1","select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "","status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "","status": 0}
+				], "text": "每次食用量等级为（1  2  3  4）"}
+			],
+			"color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			},
+			"focus":  "G",
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"error": "false",
+			"questionjson": [{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 0},
+			{
+			"label": [
+				{"b_text": "其他水果，如", "input": 1, "value": "", "a_text":"，食用","select": [],"type":"1","input_type":"text"},
+				{"b_text": "频率为", "input": 1, "value": "", "a_text":"次/", "type":"1","type":"1","select": [
+					{"text": "周", "color": {
+						"fontcolor": "#DF2203",
+						"borderColor": "#DF2203",
+						"r_bgc": "#DF2203"
+					}, "value": "","status": 1},
+					{"text": "月", "color": {
+						"fontcolor": "#fff",
+						"borderColor": "#fff",
+						"r_bgc": "#8ECDFF"
+					},"value": "","status": 0}
+				], "text": "每次食用量等级为（1  2  3  4  5）","input_type":"digit"}
+			],
+			  "focus":  "H",
+			  "type": "x",
+			  "color":{
+				"itemBgc": "#E8F5FF",
+				"itemTitleBgc": "#8ECDFF"
+			  },
+			"help": {
+				"imgurl": "../../../static/image/ic_help.png",
+				"showhelpText": "true"
+			},
+			"error": "false",
+			"questionjson": [{
+					 "label": 1,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {"label": 2,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}, {
+					"label": 3,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				},
+				 {
+					"label": 4,"status":0, "color": {
+						"ftcolor": "#000",
+						"t_iconBgc": "#707070",
+						"t_borBgc": "#DADBDC",
+						"bgc":"#E8F5FF",
+						"t_innericonBgc": "#FFFFFF"
+					}
+				}],
+			"status": 1}
+		]
+	},
+	{
+			"title": "五、蛋、奶类",
+			"subscript": {
+				"title": []
+			},
+			"type": 2,
+			"flag": "flag",
+			"itemSelcet": [
+				{
+	              "label": [
+					  {"b_text": "鸡  蛋，食用频率为", "input": 1, "value": "", "a_text": "次/", "select": [],"input_type":"digit","type": "1"},
+					  {"b_text": "", "input": 0, "value": "", "a_text": "", "select": [
+					  	{"text": "周", "color": {
+					  		"fontcolor": "#DF2203",
+					  		"borderColor": "#DF2203",
+					  		"r_bgc": "#DF2203"
+					  	}, "value": "","status": 1},
+					  	{"text": "月", "color": {
+					  		"fontcolor": "#fff",
+					  		"borderColor": "#fff",
+					  		"r_bgc": "#8ECDFF"
+					  	},"value": "","status": 0}
+					  ], "text": "每次量约为"},
+					  {"b_text": "", "input": 1, "value": "", "a_text": "颗", "select": [],"input_type":"digit"}
+				],
+	              "focus":  "A",
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+				"type": "k",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [],
+				"status": 0},
+				{
+				"label": [
+					{"b_text": "鸭  蛋，食用频率为", "input": 1, "value": "", "a_text": "次/", "select": [],"input_type":"digit","type": "1"},
+					{"b_text": "", "input": 0, "value": "", "a_text": "", "select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "每次量约为"},
+					{"b_text": "", "input": 1, "value": "", "a_text": "颗", "select": [],"input_type":"digit"}
+				],
+	              "focus":  "B",
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+				"type": "k",  
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [],
+				"status": 0},
+				{
+				"label": [
+					{"b_text": "鹌鹑蛋，食用频率为", "input": 1, "value": "", "a_text": "次/", "select": [],"input_type":"digit","type": "1"},
+					{"b_text": "", "input": 0, "value": "", "a_text": "", "select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "每次量约为"},
+					{"b_text": "", "input": 1, "value": "", "a_text": "颗", "select": [],"input_type":"digit"}
+				],
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	              "focus":  "C",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+	            "type": "k",
+				"error": "false",
+				"questionjson":  [],
+				"status": 0},
+				{
+					"label": [
+						{"b_text": "牛  奶，食用频率为", "input": 1, "value": "", "a_text": "次/", "select": [],"input_type":"digit","type": "1"},
+						{"b_text": "", "input": 0, "value": "", "a_text": "", "select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次量约为"},
+						{"b_text": "", "input": 1, "value": "", "a_text": "ml", "select": [],"input_type":"digit"}
+				],
+				"type": "m",
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	              "focus":  "D",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson":  [],
+				"status": 0},
+				{
+					"label": [
+						{"b_text": "羊  奶，食用频率为", "input": 1, "value": "", "a_text": "次/", "select": [],"input_type":"digit","type": "1"},
+						{"b_text": "", "input": 0, "value": "", "a_text": "", "select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次量约为"},
+						{"b_text": "", "input": 1, "value": "", "a_text": "ml", "select": [],"input_type":"number"}
+				],
+				 "type": "m",
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	              "focus":  "E",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [],
+				"status": 0},
+				{
+				"label": [
+					{"b_text": "酸  奶（不包括酸奶饮料，如养乐多、酸酸乳等），食用频率为", "input": 1,"type": "1", "value": "", "a_text": "", "select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "次/每次量约为","input_type":"digit"},
+					{"b_text": "", "input": 1, "value": "", "a_text": "ml", "select": [],"input_type":"digit"}
+				],
+				"type": "m",
+	            "focus":  "F",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+				"error": "false",
+				"questionjson": [],
+				"status": 0},
+				{
+				"label": [
+					{"b_text": "其他奶类如", "input": 1, "value": "", "a_text": ",食用频率", "select": [],"input_type":"text"},
+					{"b_text": "为", "input": 1, "value": "", "a_text": "次/", "select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "","input_type":"digit"},
+					{"b_text": "每次量约为", "input": 1, "value": "", "a_text": "ml", "select": [],"input_type":"digit"}
+				],
+				  "type": "x",
+				  "flag": "m",
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	              "focus":  "G",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [],
+				"status": 1}
+			]
+		},
+	{
+			"title": "六、坚果类",
+			"subscript": {
+				"title": [
+					{"text": "请您根据孩子的饮食情况，选择相应的食用频率单位，即", "type": 0},
+					{"text": "周或月", "type": 1},
+					{"text": "【可选】", "type": 2},
+					{"text": "。并根据孩子所吃食物的", "type": 0},
+					{"text": "体积", "type": 1},
+					{"text": "估计等级。若列举的食物种类，孩子食用频率", "type": 0},
+					{"text": "<1次/月", "type": 1},
+					{"text": "或“", "type": 0},
+					{"text": "不吃", "type": 1},
+					{"text": "，则记频次为“", "type": 0},
+					{"text": "0", "type": 1},
+					{"text": "”", "type": 0}
+				],
+				"image": "https://www.softcasing.com/images/food/ic_almond.jpg"
+			},
+			"type": 2,
+			"flag": "flag",
+			"itemSelcet": [
+				{
+	              "label": [
+					  {"b_text": "核  桃，食用频率为", "input": 1, "value": "", "a_text": "次/", "select": [],"type":"1","input_type":"digit"},
+					  {"b_text": "", "input": 0, "value": "", "a_text": "", "select": [
+					  	{"text": "周", "color": {
+					  		"fontcolor": "#DF2203",
+					  		"borderColor": "#DF2203",
+					  		"r_bgc": "#DF2203"
+					  	}, "value": "","status": 1},
+					  	{"text": "月", "color": {
+					  		"fontcolor": "#fff",
+					  		"borderColor": "#fff",
+					  		"r_bgc": "#8ECDFF"
+					  	},"value": "","status": 0}
+					  ], "text": "每次食用量等级为（1  2  3  4）"}
+				  ],
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	              "focus":  "A",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0},
+				{
+					"label": [
+						{"b_text": "松  子，食用频率为", "input": 1, "value": "", "a_text": "次/", "select": [],"type":"1","input_type":"digit"},
+						{"b_text": "", "input": 0, "value": "", "a_text": "", "select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）"}
+				],
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	              "focus":  "B",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0},
+				{
+					"label": [
+						{"b_text": "榛  子，食用频率为", "input": 1, "value": "", "a_text": "次/", "select": [],"type":"1","input_type":"digit"},
+						{"b_text": "", "input": 0, "value": "", "a_text": "", "select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）"}
+				],
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	              "focus":  "C",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0},
+				{
+					"label": [
+						{"b_text": "巴旦木（扁桃仁, 美国大杏仁），食用频率为", "input": 1,"type": "1", "value": "", "a_text": "次/", "select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）","input_type":"digit"}
+					],
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	              "focus":  "D",
+				  "help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0},
+				{
+					"label": [
+						{"b_text": "开心果，食用频率为", "input": 1,"type": "1", "value": "", "a_text": "次/", "select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）","input_type":"digit"}
+					],
+				  "color":{
+				    "itemBgc": "#E8F5FF",
+				    "itemTitleBgc": "#8ECDFF"
+				  },
+				  "focus":  "D",
+				  "help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0},
+				{
+					"label": [
+						{"b_text": "腰果，食用频率为", "input": 1,"type": "1", "value": "", "a_text": "次/", "select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）","input_type":"digit"}
+					],
+				  "color":{
+				    "itemBgc": "#E8F5FF",
+				    "itemTitleBgc": "#8ECDFF"
+				  },
+				  "focus":  "D",
+				  "help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0},
+				{
+					"label": [
+						{"b_text": "葵花子或花生,食用频率为", "input": 1, "value": "","type": "1", "a_text": "次/", "select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "每次食用量等级为（1  2  3  4）（以上两种，任意一种吃过1次，频率+1，例：若孩子本周食用葵花子1次，花生1次，则食用频率记为2次/周）","input_type":"digit"}
+				],
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	            "focus":  "E",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [{
+						 "label": 1,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {"label": 2,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}, {
+						"label": 3,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					},
+					 {
+						"label": 4,"status":0, "color": {
+							"ftcolor": "#000",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#DADBDC",
+							"bgc":"#E8F5FF",
+							"t_innericonBgc": "#FFFFFF"
+						}
+					}],
+				"status": 0},
+				{
+				"label": [
+					{"b_text": "每日坚果（市场销售产品25克一份）,食用频率为", "input": 1, "value": "", "a_text": "次/","type": "1", "select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "每次食用量约为","input_type":"digit"},
+					{"b_text": "", "input": 1, "value": "", "a_text": "袋", "select": [],"input_type":"digit"}
+				],
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	              "focus":  "G",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [],
+				"status": 0}
+			]
+		},
+	{
+			"title": "七、零食类",
+			"subscript": {
+				"title": []
+			},
+			"type": 2,
+			"flag": "snack",
+			"itemSelcet": [
+				{
+	              "label": [
+					  {"b_text": "油炸类/膨化类，食用频率为", "input": 1, "type":"1","value": "", "a_text": "次/", "select": [
+					  	{"text": "周", "color": {
+					  		"fontcolor": "#DF2203",
+					  		"borderColor": "#DF2203",
+					  		"r_bgc": "#DF2203"
+					  	}, "value": "","status": 1},
+					  	{"text": "月", "color": {
+					  		"fontcolor": "#fff",
+					  		"borderColor": "#fff",
+					  		"r_bgc": "#8ECDFF"
+					  	},"value": "","status": 0}
+					  ], "text": "","input_type":"digit"}
+				],
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	              "focus":  "A",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [],
+				"status": 0},
+				{
+					"label": [
+						{"b_text": "甜点类，食用频率为", "input": 1, "value": "", "type":"1", "a_text": "次/", "select": [],"input_type":"digit"},
+						{"b_text": "", "input": 0, "value": "", "a_text": "", "select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": ""}
+						
+				],
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	              "focus":  "B",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [],
+				"status": 0},
+				{
+				  "label": [
+						{"b_text": "巧克力，食用频率为", "input": 1, "value": "",  "type":"1","a_text": "次/", "select": [],"input_type":"digit"},
+						{"b_text": "", "input": 0, "value": "", "a_text": "", "select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": ""}
+				],
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	              "focus":  "C",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson":  [],
+				"status": 0},
+				{
+				  "label": [
+						{"b_text": "奶酪，食用频率为", "input": 1, "value": "", "type":"1", "a_text": "次/", "select": [],"input_type":"digit"},
+						{"b_text": "", "input": 0, "value": "", "a_text": "", "select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": ""}
+				],
+				  "color":{
+				    "itemBgc": "#E8F5FF",
+				    "itemTitleBgc": "#8ECDFF"
+				  },
+				  "focus":  "D",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson":  [],
+				"status": 0},
+				{
+					"label": [
+						{"b_text": "碳酸饮料类，食用频率为", "input": 1,  "type":"1","value": "", "a_text": "次/", "select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": "","input_type":"digit"}
+				],
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	              "focus":  "E",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson":  [],
+				"status": 0},
+				{
+					"label": [
+						{"b_text": "甜饮料类，食用频率为", "input": 1, "value": "", "type":"1", "a_text": "次/", "select": [],"input_type":"digit"},
+						{"b_text": "", "input": 0, "value": "", "a_text": "", "select": [
+							{"text": "周", "color": {
+								"fontcolor": "#DF2203",
+								"borderColor": "#DF2203",
+								"r_bgc": "#DF2203"
+							}, "value": "","status": 1},
+							{"text": "月", "color": {
+								"fontcolor": "#fff",
+								"borderColor": "#fff",
+								"r_bgc": "#8ECDFF"
+							},"value": "","status": 0}
+						], "text": ""}
+				],
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	              "focus":  "F",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [],
+				"status": 0},
+				{
+				"label": [
+					{"b_text": "果脯蜜饯类（如葡萄干、蔓越莓干、蓝莓干），食用频率为", "input": 1, "type":"1", "value": "", "a_text": "次/", "select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": ""}
+				],
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	              "focus":  "G",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [],
+				"status": 0}
+			]
+		},
+	{
+			"title": "八、",
+			"subscript": {
+				"title": ""
+			},
+			"type": 2,
+			"flag": "water",
+			"itemSelcet": [
+				{
+	              "label": [
+					{"b_text": "孩子每日饮水量", "input": 1, "value": "", "select":[], "a_text":"ml（饮水内容包括:水，粥汤类，不包括各种奶类及饮料。）","input_type":"number"}
+				],
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	              "focus":  "A",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [],
+				"status": 0}
+			]
+		},
+	{
+			"title": "九、",
+			"subscript": {
+				"title": ""
+			},
+			"type": 2,
+			"flag": "snack",
+			"itemSelcet": [
+				{
+	              "label": [
+					{"b_text": "饭菜中应用辣椒，咖喱及孜然调料的食用频率为", "input": 1, "value": "", "a_text": "次/","input_type":"digit", "select": [
+						{"text": "周", "color": {
+							"fontcolor": "#DF2203",
+							"borderColor": "#DF2203",
+							"r_bgc": "#DF2203"
+						}, "value": "","status": 1},
+						{"text": "月", "color": {
+							"fontcolor": "#fff",
+							"borderColor": "#fff",
+							"r_bgc": "#8ECDFF"
+						},"value": "","status": 0}
+					], "text": "（以上品种，任意一种吃过1次，频率+1，例：若孩子本周食用辣椒调料1次，咖喱调料1次，则食用频率记为2次/周。）"}
+				],
+	              "color":{
+	                "itemBgc": "#E8F5FF",
+	                "itemTitleBgc": "#8ECDFF"
+	              },
+	              "focus":  "A",
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [],
+				"status": 0}
+			]
+		},
+	{
+			"title": "十、孩子平时的饮食结构的比例",
+			"subscript": {
+				"title": ""
+			},
+			"type": 2,
+			"flag": "final",
+			"itemSelcet": [
+				{"label": [
+					{"b_text": "主食：蔬菜：肉：蛋奶：水果=", "input": 0, "value": "", "select": []},
+					{"b_text": ":", "input": 1, "value": "", "name": 1,"select": [],"input_type":"digit"},
+					{"b_text": ":", "input": 1, "value": "", "name": 2,"select": [],"input_type":"digit"},
+					{"b_text": ":", "input": 1, "value": "", "name": 3, "select": [],"input_type":"digit"},
+					{"b_text": ":", "input": 1, "value": "",  "name": 4, "select": [],"input_type":"digit"},
+					{"b_text": ":", "input": 1, "value": "",  "name": 5, "select": [],"input_type":"digit"}
+				],
+	            "color":{
+	              "itemBgc": "#E8F5FF",
+	              "itemTitleBgc": "#8ECDFF"
+	            },
+				"help": {
+					"imgurl": "../../../static/image/ic_help.png",
+					"showhelpText": "true"
+				},
+				"error": "false",
+				"questionjson": [],
+				"status": 0, "focus":  "A"}
+			]
+	}
+]

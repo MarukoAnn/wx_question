@@ -1,0 +1,68 @@
+{
+	"question": [
+		{
+			"title": "1、您的孩子是否曾经诊断为哮喘？",
+			"type": "1",
+			"more": "false",
+			"select": [
+				{"item": "A.是", "color": {
+					"fontColor": "#000",
+					"iconBgc": "#000",
+					"itemBgc": "#F7F7F7"
+				},"status": 0,"focus":"A"},
+				{"item": "B.否","focus":"B", "color": {
+					"fontColor": "#000",
+					"iconBgc": "#000",
+					"itemBgc": "#F7F7F7"
+				}, "status": 0}
+			]
+		},
+		{
+			"title": "",
+			"type": "2",
+			"more": "false",
+			"select": [
+				{
+				  "label":[{"b_text": "2、您的孩子患哮喘的年龄是","status": 0,"focus":"A","value":"","input": 1,"a_text": ""},
+						{"b_text": "岁","status": 0,"focus":"A","value":"","input": 1,"a_text": "月"}
+					],
+				  "color":{
+					  "itemBgc": "#8ECDFF"
+					},"status": 0
+				}
+			]
+		},
+	{
+		"title": "3、哮喘的治疗方案【可多选】？",
+		"type": "1",
+		"more": "true",
+		"select": [
+			{"item": "A、吸入激素治疗（如布地奈德）", "color": {
+				"fontColor": "#000",
+				"iconBgc": "#000",
+				"itemBgc": "#F7F7F7"
+			},"status": 0,"focus":"A","data": 4},
+			{"item": "B、口服孟鲁斯特纳","focus":"B", "color": {
+				"fontColor": "#000",
+				"iconBgc": "#000",
+				"itemBgc": "#F7F7F7"
+			}, "status": 0,"data": 0},
+			{"item": "C、脱敏治疗","focus":"C", "color": {
+				"fontColor": "#000",
+				"iconBgc": "#000",
+				"itemBgc": "#F7F7F7"
+			}, "status": 0,"data": 0},
+			{"item": "D、遵照医嘱规律治疗","focus":"D", "color": {
+				"fontColor": "#000",
+				"iconBgc": "#000",
+				"itemBgc": "#F7F7F7"
+			}, "status": 0,"data": 0},
+			{"item": "E、未规律治疗","focus":"E", "color": {
+				"fontColor": "#000",
+				"iconBgc": "#000",
+				"itemBgc": "#F7F7F7"
+			}, "status": 0,"data": 0}
+		]
+	}
+	]
+}

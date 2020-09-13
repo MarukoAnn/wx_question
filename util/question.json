@@ -1,0 +1,5542 @@
+{
+	"question": [
+	{
+				"title": "1、您的孩子是否曾经患过过敏性疾病？（至少2次）【如湿疹、荨麻疹、哮喘、过敏性鼻炎等】",
+				"isImage": "false",
+				"more": "false",
+				"select": [
+					{"item": "A.是", "color": {
+						"fontColor": "#000",
+						"iconBgc": "#000",
+						"itemBgc": "#F7F7F7"
+					},"status": 0,"focus":"A", "value": {
+						"ph_value": 0,
+						"qx_value": 0,
+						"yx_value": 0,
+						"ya_value": 0,
+						"ts_value": 0,
+						"sr_value": 0,
+						"qy_value": 0,
+						"tb_value": 4,
+						"yr_value": 0,
+						"xk_value": 0
+					},"data": 4},
+					{"item": "B.否","focus":"B", "color": {
+						"fontColor": "#000",
+						"iconBgc": "#000",
+						"itemBgc": "#F7F7F7"
+					}, "status": 0,"value": {
+						"ph_value": 0,
+						"qx_value": 0,
+						"yx_value": 0,
+						"ya_value": 0,
+						"ts_value": 0,
+						"sr_value": 0,
+						"qy_value": 0,
+						"tb_value": 4,
+						"yr_value": 0,
+						"xk_value": 0
+					},"data": 0}
+				]
+			},
+	{
+				"title": "2、您的孩子直系亲属【如爸爸、妈妈、姥姥、姥爷、爷爷、奶奶、叔叔、姑姑、姨、舅等】有过敏性疾病么？",
+				"isImage": "false",
+				"more": "false",
+				"select": [
+					{"item": "A.是","focus":"A", "color": {
+						"fontColor": "#000",
+						"iconBgc": "#000",
+						"itemBgc": "#F7F7F7"
+					},"status": 0, "value": {
+						"ph_value": 0,
+						"qx_value": 0,
+						"yx_value": 0,
+						"ya_value": 0,
+						"ts_value": 0,
+						"sr_value": 0,
+						"qy_value": 0,
+						"tb_value": 4,
+						"yr_value": 0,
+						"xk_value": 0
+					},"data": 4},
+					{"item": "B.否", "focus":"B","color": {
+						"fontColor": "#000",
+						"iconBgc": "#000",
+						"itemBgc": "#F7F7F7"
+					}, "status": 0,"value":  {
+						"ph_value": 0,
+						"qx_value": 0,
+						"yx_value": 0,
+						"ya_value": 0,
+						"ts_value": 0,
+						"sr_value": 0,
+						"qy_value": 0,
+						"tb_value": 4,
+						"yr_value": 0,
+						"xk_value": 0
+					},"data": 0}
+				]
+			},
+	{
+				"title": "3、您的孩子体型符合以下哪种情况？【可多选】",
+				"isImage": "false",
+				"more": "true",
+				"select": [
+					{"item": "A.体型正常或结实","focus":"A", "color": {
+						"fontColor": "#000",
+						"iconBgc": "#000",
+						"itemBgc": "#F7F7F7"
+					},"status": 0, "value": {
+						"ph_value": 5,
+						"qx_value": 0,
+						"yx_value": 2,
+						"ya_value": 0,
+						"ts_value": 0,
+						"sr_value": 0,
+						"qy_value": 0,
+						"tb_value": 0,
+						"yr_value": 0,
+						"xk_value": 0
+					},"data": 4},
+					{"item": "B.体型偏矮", "focus":"B","color": {
+						"fontColor": "#000",
+						"iconBgc": "#000",
+						"itemBgc": "#F7F7F7"
+					}, "status": 0,"value":  {
+						"ph_value": 0,
+						"qx_value": 3,
+						"yx_value": 0,
+						"ya_value": 3,
+						"ts_value": 0,
+						"sr_value": 0,
+						"qy_value": 0,
+						"tb_value": 0,
+						"yr_value": 0,
+						"xk_value": 0
+					},"data": 4},
+					{"item": "C.体型偏瘦", "focus":"C","color": {
+						"fontColor": "#000",
+						"iconBgc": "#000",
+						"itemBgc": "#F7F7F7"
+					}, "status": 0,"value":  {
+						"ph_value": 0,
+						"qx_value": 3,
+						"yx_value": 3,
+						"ya_value": 0,
+						"ts_value": 0,
+						"sr_value": 0,
+						"qy_value": 0,
+						"tb_value": 0,
+						"yr_value": 0,
+						"xk_value": 0
+					},"data": 4},
+					{"item": "D.体型偏胖", "focus":"D","color": {
+						"fontColor": "#000",
+						"iconBgc": "#000",
+						"itemBgc": "#F7F7F7"
+					}, "status": 0,"value":  {
+						"ph_value": 0,
+						"qx_value": 3,
+						"yx_value": 0,
+						"ya_value": 0,
+						"ts_value": 4,
+						"sr_value": 0,
+						"qy_value": 0,
+						"tb_value": 0,
+						"yr_value": 0,
+						"xk_value": 0
+					},"data": 4}
+				]
+			},
+	{
+		"title": "4、您的孩子精力符合以下哪种情况?",
+		"isImage": "true",
+		"imageurl": "",
+		"select": [
+			{"item": "A.精力充沛","imageurl": "","error": "false","focus":"A",
+			"value": {
+				"ph_value": 4,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},
+			 "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor": "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status": 0},
+			{"item": "B.精力旺盛，喜动或活动多","error": "false","focus":"B",
+			"value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 4,
+				"xk_value": 0
+			},"imageurl": "", "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "C.容易劳累、没精神", "imageurl": "","focus":"C",
+			"value": {
+				"ph_value": 0,
+				"qx_value": 5,
+				"yx_value": 0,
+				"ya_value": 5,
+				"ts_value": 4,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},"error": "false",
+			 "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0}
+		]
+	},
+	{
+		"title": "5、您的孩子肌肉符合以下哪种情况?",
+		"isImage": "true",
+		"select": [
+			{"item": "A.肌肉紧实","imageurl": "","focus":"A",
+			 "value": {
+			 	"ph_value": 5,
+			 	"qx_value": 0,
+			 	"yx_value": 0,
+			 	"ya_value": 0,
+			 	"ts_value": 0,
+			 	"sr_value": 0,
+			 	"qy_value": 0,
+			 	"tb_value": 0,
+			 	"yr_value": 0,
+			 	"xk_value": 0
+			 },"error": "false","color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor": "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status": 0},
+			{"item": "B.肌肉松软","imageurl": "", "focus":"B",
+			"value": {
+				"ph_value": 0,
+				"qx_value": 2,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},"error": "false","color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "C.肚子大、软","imageurl": "","focus":"C",
+			"value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 2,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},"error": "false", "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0}
+		]
+	},
+	{
+		"title": "6、您的孩子脸色符合以下哪种情况?",
+		"isImage": "true",
+		"select": [
+			{"item": "A.脸色红润有光泽","imageurl": "","focus":"A",
+			"value": {
+				"ph_value": 5,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},"error": "false", "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor": "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status": 0},
+			{"item": "B.脸色偏黄","imageurl": "","focus":"B",
+			"value": {
+				"ph_value": 0,
+				"qx_value": 5,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},"error": "false", "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "C.脸色偏白、没有光泽","imageurl": "","focus":"C","value": {
+				"ph_value": 0,
+				"qx_value": 5,
+				"yx_value": 0,
+				"ya_value": 4,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 5
+			},"error": "false", "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "D.脸部油腻","imageurl": "","focus":"D","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 3,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},"error": "false", "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect":[{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0}
+		]
+	},
+	{
+		"title": "7、您的孩子口唇颜色符合以下哪种情况?",
+		"isImage": "true",
+		"select": [
+			{"item": "A.口唇颜色淡红","imageurl": "","focus":"A","value": {
+				"ph_value": 2,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "error": "false","color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor": "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status": 0},
+			{"item": "B.口唇颜色偏淡","imageurl": "","focus":"B","value": {
+				"ph_value": 0,
+				"qx_value": 5,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 5
+			},"error": "false", "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "C.口唇颜色偏红","imageurl": "","focus":"C","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 4,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 4,
+				"xk_value": 0
+			},"error": "false", "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect":[{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0}
+		]
+	},
+	{
+		"title": "8、您的孩子皮肤符合以下哪种情况?",
+		"isImage": "true",
+		"select": [
+			{"item": "A.皮肤润泽","imageurl": "","focus":"A","value": {
+				"ph_value": 4,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},"error": "false", "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor": "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "B.皮肤干燥或瘙痒","imageurl": "","focus":"B","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 4,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 4
+			}, "error": "false", "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0}
+		]
+	},
+	{
+		"title": "9、您的孩子头发符合以下哪种情况?",
+		"isImage": "true",
+		"select": [
+			{"item": "A.头发细","imageurl": "","error": "false" ,"focus":"A","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 2
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor": "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status": 0},
+			{"item": "B.头发颜色偏黄","imageurl": "","error": "false","focus":"B","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 4
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0}
+		]
+	},
+	{
+		"title": "10、您的孩子舌头符合以下哪种情况?",
+		"isImage": "true",
+		"select": [
+			{"item": "A.舌淡红苔薄白",
+			"imageurl": "https://www.softcasing.com/images/question/A.jpg","value": {
+				"ph_value": 2,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},"error": "false", "focus":"A","color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor": "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "B.舌淡","imageurl": "https://www.softcasing.com/images/question/B.jpg","focus":"B","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 3
+			},"error": "false", "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor": "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "C.舌淡胖，苔白滑","imageurl": "https://www.softcasing.com/images/question/C.png","focus":"C","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 2,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "error": "false","color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "D.舌淡苔白","imageurl": "https://www.softcasing.com/images/question/D.jpg", "error": "false","focus":"D","value": {
+				"ph_value": 0,
+				"qx_value": 3,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},"color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "E.舌红","imageurl": "https://www.softcasing.com/images/question/E.jpg", "error": "false","focus":"E","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 2,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},"color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "F.舌红苔黄","imageurl": "https://www.softcasing.com/images/question/F.jpg","error": "false","focus":"F", "value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 4,
+				"xk_value": 0
+			},"color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "G.舌红苔黄腻","imageurl": "https://www.softcasing.com/images/question/G.jpg","error": "false", "focus":"G","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 4,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect":[{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "H.地图舌或者舌苔少","imageurl": "https://www.softcasing.com/images/question/s_h.png","error": "false", "focus":"H","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 5,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "I.舌胖大，苔腻","imageurl": "https://www.softcasing.com/images/question/I.jpg", "error": "false","focus":"I", "value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 4,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},"color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0}
+		]
+	},
+	{
+		"title": "11、您的孩子鼻子、眼睛符合以下哪种情况?",
+		"isImage": "true",
+		"select": [
+			{"item": "A.下眼睑浮肿","imageurl": "","error": "false","focus":"A","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 4,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor": "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status": 0},
+			{"item": "B.起床眼屎多","imageurl": "","error": "false","focus":"B","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 4,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 4,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect":[{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "C.揉鼻子、揉眼睛或眨眼","imageurl": "", "error": "false","focus":"C","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 5,
+				"yr_value": 0,
+				"xk_value": 0
+			},"color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect":[{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0}
+		]
+	},
+	{
+		"title": "12、您的孩子喝水符合以下哪种情况?",
+		"isImage": "true",
+		"select": [
+			{"item": "A.喜欢喝水（不包括饮料）","imageurl": "","error": "false","focus":"A", "value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 3,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 4,
+				"xk_value": 0
+			},"color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor": "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status": 0},
+			{"item": "B.不喜欢喝水","imageurl": "", "error": "false","focus":"B","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 4,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},"color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect":[{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0}
+		]
+	},
+	{
+		"title": "13、您的孩子对冷热反应符合以下哪种情况?",
+		"isImage": "true",
+		"select": [
+			{"item": "A.怕冷","imageurl": "","error": "false","focus":"A","value": {
+				"ph_value": 0,
+				"qx_value": 3,
+				"yx_value": 0,
+				"ya_value": 5,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor": "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status": 0},
+			{"item": "B.怕热","imageurl": "","error": "false","focus":"B","value": {
+				"ph_value": 0,
+				"qx_value": 3,
+				"yx_value": 3,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 3,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 3,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0}
+		]
+	},
+	{
+		"title": "14、您的孩子出汗符合以下哪种情况?",
+		"isImage": "true",
+		"select": [
+			{"item": "A.活动后汗多","imageurl": "", "error": "false","focus":"A","value": {
+				"ph_value": 0,
+				"qx_value": 4,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 3,
+				"xk_value": 0
+			},"color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor": "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status": 0},
+			{"item": "B.睡觉出汗多","imageurl": "", "error": "false","focus":"B","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 4,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 2,
+				"xk_value": 0
+			},"color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect":[{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "C.出汗黏","imageurl": "","error": "false","focus":"C","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 4,
+				"sr_value": 4,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect":[{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0}
+		]
+	},
+	{
+		"title": "15、您的孩子吃饭符合以下哪种情况?",
+		"isImage": "true",
+		"select": [
+			{"item": "A.饮食均衡、不挑食","imageurl": "","focus":"A", "error": "false","value": {
+				"ph_value": 5,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},"color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor": "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status": 0},
+			{"item": "B.饭量小","imageurl": "", "focus":"B","error": "false","value": {
+				"ph_value": 0,
+				"qx_value": 3,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 2,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},"color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "C.吃肉食偏多","imageurl": "","focus":"C","error": "false","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 2,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "D.吃凉的食物会不舒服","imageurl": "","focus":"D","error": "false", "value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 3,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect":[{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0}
+		]
+	},
+	{
+		"title": "16、您的孩子睡觉符合以下哪种情况?",
+		"isImage": "true",
+		"select": [
+			{"item": "A.入睡快，睡眠比较安稳","imageurl": "","focus":"A","error": "false", "value": {
+				"ph_value": 5,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor": "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status": 0},
+			{"item": "B.睡眠时间充足的情况下，白天也会打哈欠、犯困","focus":"B","imageurl": "","error": "false","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 5,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},  "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "C.上床后需要较长时间才能入睡","imageurl": "","focus":"C","error": "false","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 4,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 4,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},  "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect":[{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "D.夜卧睡眠不踏实，来回翻滚","imageurl": "","focus":"D","error": "false","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 4,
+				"xk_value": 0
+			},  "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "E. 睡觉时眼睛微张（有缝隙）","imageurl": "","focus":"D","error": "false","value": {
+				"ph_value": 0,
+				"qx_value": 2,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},  "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0}
+		]
+	},
+	{
+		"title": "17、您的孩子大小便符合以下哪种情况?",
+		"isImage": "true",
+		"select": [
+			{"item": "A.大便不干不稀，能定时排便每日1~2次","imageurl": "","focus":"A","error": "false","value": {
+				"ph_value": 5,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},  "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor": "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status": 0},
+			{"item": "B.大便干燥（例如球状、粗条状）","imageurl": "","focus":"B","error": "false","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 4,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 3,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 5,
+				"xk_value": 0
+			},  "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "C.大便量多、不成形","imageurl": "","focus":"C","error": "false","value": {
+				"ph_value": 0,
+				"qx_value": 4,
+				"yx_value": 0,
+				"ya_value": 4,
+				"ts_value": 4,
+				"sr_value": 4,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},  "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "D.大便粘便盆，不易冲刷干净","imageurl": "", "error": "false","focus":"D","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 5,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "E.大便味臭","imageurl": "", "error": "false","focus":"E","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 4,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect":[{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "F.正常饮水量情况下，仍小便黄（3~6岁儿童每天正常饮水量【包括奶类、水果、蔬菜等中的水分】：1200~1600ml，约2.5~3个矿泉水瓶）","imageurl": "","focus":"F","error": "false", "value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 3,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 3,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "G.正常饮水量情况下，小便次数多或量多【3~6岁儿童小便正常量500~1000ml/天，小便正常次数5~8次/天】","imageurl": "","error": "false","focus":"G","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 3,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},  "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0}
+		]
+	},
+	{
+		"title": "18、您的孩子身体状况及常见表现符合以下哪种情况?",
+		"isImage": "true",
+		"select": [
+			{"item": "A.身体健康、很少生病","imageurl": "", "error": "false","focus":"A","value": {
+				"ph_value": 4,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor": "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect":[{
+						 "label": "是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "否", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status": 0},
+			{"item": "B.患病后很快康复","imageurl": "", "error": "false","focus":"B","value": {
+				"ph_value": 3,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "C.起口疮、咽痛","imageurl": "","error": "false", "focus":"C","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 3,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 4,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 4,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "D.流鼻血（外伤导致除外）","imageurl": "", "error": "false","focus":"D","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 3,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "E.说话声音小","imageurl": "","error": "false","focus":"E","value": {
+				"ph_value": 0,
+				"qx_value": 3,
+				"yx_value": 0,
+				"ya_value": 2,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},  "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "F.口气重","imageurl": "","error": "false","focus":"F","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 4,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 4,
+				"xk_value": 0
+			},  "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "G.手脚心热","imageurl": "","error": "false","focus":"G","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 4,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 3,
+				"xk_value": 0
+			},  "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "H.手脚凉","imageurl": "","error": "false","focus":"H","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 4,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},  "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "I.肚子痛","imageurl": "", "error": "false","focus":"I","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 3,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 3,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "J.干呕","imageurl": "","error": "false","focus":"J","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 4,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},  "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect":[{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "K.身上起湿疹","imageurl": "", "error": "false","focus":"K","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 4,
+				"sr_value": 4,
+				"qy_value": 0,
+				"tb_value": 5,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "L.皮肤搔抓后有隆起刮痕","imageurl": "","error": "false", "focus":"L","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 3,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "M.在以下情况下出现打喷嚏、流鼻涕、鼻塞、咳嗽【换季、温度变化、接触花粉或带毛的小动物、装修等可能存在过敏原的地方】","imageurl": "","focus":"M","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 4,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "error": "false", "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "N.接触或食用某过敏原后易起荨麻疹或皮肤痒","imageurl": "","focus":"N","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 5,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "error": "false", "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "O.不喜欢潮湿的环境或在潮湿环境下身体有不适表现（如起皮疹、胸闷、哮喘发作等）","imageurl": "","focus":"N","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 4,
+				"sr_value": 4,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "error": "false", "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0}
+		]
+	},
+	{
+		"title": "19、您的孩子每年患呼吸道感染（包括感冒、支气管炎、肺炎）的频率?",
+		"isImage": "false",
+		"more": "false",
+		"select": [
+			{"item": "A.≥6次/每年", "focus":"A","color": {
+				"fontColor": "#000",
+				"iconBgc": "#000",
+				"itemBgc": "#F7F7F7"
+			},"status": 0,
+			"value": {
+				"ph_value": 0,
+				"qx_value": 4,
+				"yx_value": 0,
+				"ya_value": 4,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},"data": 4 },
+			{"item": "B.2~5次/每年", "focus":"B","color": {
+				"fontColor": "#000",
+				"iconBgc": "#000",
+				"itemBgc": "#F7F7F7"
+			}, "value": {
+				"ph_value": 0,
+				"qx_value": 4,
+				"yx_value": 0,
+				"ya_value": 4,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},"data": 2, "status": 0},
+			{"item": "C.<2次/每年","focus":"C", "color": {
+				"fontColor": "#000",
+				"iconBgc": "#000",
+				"itemBgc": "#F7F7F7"
+			},"value": {
+				"ph_value": 0,
+				"qx_value": 4,
+				"yx_value": 0,
+				"ya_value": 4,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},  "status": 0, "data": 0}
+		]
+	},
+	{
+		"title": "20、您的孩子尿床的频率?",
+		"isImage": "false",
+		"more": "false",
+		"select": [
+			{"item": "A.几乎每天都有", "focus":"A","color": {
+				"fontColor": "#000",
+				"iconBgc": "#000",
+				"itemBgc": "#F7F7F7"
+			},"value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 3,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "status": 0,"data": 4},
+			{"item": "B.1~4次/每周","focus":"B", "color": {
+				"fontColor": "#000",
+				"iconBgc": "#000",
+				"itemBgc": "#F7F7F7"
+			}, "value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 3,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "status": 0,"data": 3},
+			{"item": "C.1~4次/月", "focus":"C","color": {
+				"fontColor": "#000",
+				"iconBgc": "#000",
+				"itemBgc": "#F7F7F7"
+			}, "value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 3,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "status": 0,"data": 2},
+			{"item": "D.数月一次","focus":"D", "color": {
+				"fontColor": "#000",
+				"iconBgc": "#000",
+				"itemBgc": "#F7F7F7"
+			}, "value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 3,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},"status": 0,"data": 1},
+			{"item": "E.3岁以后几乎不尿床","focus":"E", "color": {
+				"fontColor": "#000",
+				"iconBgc": "#000",
+				"itemBgc": "#F7F7F7"
+			}, "value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 3,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},"status": 0,"data": 0}
+		]
+	},
+	{
+		"title": "21、您的孩子性格表现符合以下哪种情况?",
+		"isImage": "true",
+		"select": [
+			{"item": "A.喜欢安静、不喜运动","imageurl": "","error": "false","focus":"A","value": {
+				"ph_value": 0,
+				"qx_value": 4,
+				"yx_value": 0,
+				"ya_value": 3,
+				"ts_value": 3,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},  "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor": "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status": 0},
+			{"item": "B.性格开朗、爱笑","imageurl": "","error": "false", "focus":"B","value": {
+				"ph_value": 3,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "C.闷闷不乐、唉声叹气","imageurl": "", "error": "false","focus":"C","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 4,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "D.胆子小，不喜欢冒险","imageurl": "","error": "false","focus":"D","value": {
+				"ph_value": 0,
+				"qx_value": 3,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},  "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "E.脾气急躁","imageurl": "", "error": "false","focus":"E","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 4,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 4,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 4,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "F.性格温和，脾气好，不易起急","imageurl": "","error": "false","focus":"F","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 3,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},  "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "G.遇事易紧张","imageurl": "", "error": "false","focus":"G","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 4,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "H.敏感，在乎别人的说法及做法","imageurl": "","error": "false","focus":"H","value": {
+				"ph_value": 0,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 4,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			},  "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect": [{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0},
+			{"item": "I.在搬家或换学校后能较快适应环境（包括日常生活、健康状态、心理状态等）","focus":"I","imageurl": "","value": {
+				"ph_value": 4,
+				"qx_value": 0,
+				"yx_value": 0,
+				"ya_value": 0,
+				"ts_value": 0,
+				"sr_value": 0,
+				"qy_value": 0,
+				"tb_value": 0,
+				"yr_value": 0,
+				"xk_value": 0
+			}, "error": "false", "color": {
+				"itemImageBgc": "#FCFCFC",
+				"fontColor" : "#000",
+				"i_iconBgc": "#000",
+				"itemBgc": "#F7F7F7",
+				"questionImageSelect":[{
+						 "label": "总是", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 4,
+							"status" : 0
+						}
+					},{
+						 "label": "经常", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 3,
+							"status" : 0
+						}
+					},{
+						 "label": "有时", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 2,
+							"status" : 0
+						}
+					},{
+						 "label": "偶尔", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 1,
+							"status" : 0
+						}
+					},{
+						 "label": "从不", "color": {
+							"ftcolor": "#B3ABAB",
+							"t_iconBgc": "#707070",
+							"t_borBgc": "#D8D8D8",
+							"bgc":"#FCFCFC",
+							"t_innericonBgc": "#FFFFFF",
+							"value": 0,
+							"status" : 0
+						}
+					}]
+			}, "status" : 0}
+		] 
+	}
+	]
+}

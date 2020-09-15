@@ -13,7 +13,7 @@
 					<text style="text-indent: 2em;display: inline-block;line-height: 6vh;" v-for="(item, index) in sub_description" :key="index">
 						{{item}}
 					</text>
-					<view v-for="(itemtext, index) in opinionList" :key=index>
+					<view v-for="(itemtext, index) in opinionList" :key=index >
 						<text style="text-indent: 2em;display: inline-block;">
 							{{itemtext.text}}
 						</text>
@@ -27,7 +27,7 @@
 				<button class="close-btn" :disabled="btn_disble" @click="showModalClick" v-if="isSinger">输入签名</text></button>
 				<button class="close-btn" :disabled="btn_disble" @click="nextPage" v-else>开始填写</text><van-icon name="arrow" class="icon" /></button>
 			</view>
-			<van-popup :show="showModal" bind:close="onClose">
+			<van-popup :show="showModal" @close="onClose" closeable="true" style="position: fixed">
 				<view class="title">请在下面输入签名：</view>
 				<canvas class="mycanvas" canvas-id="mycanvas" @touchstart="touchstart" @touchmove="touchmove" @touchend="touchend"></canvas>
 				<view class="footer">
@@ -37,10 +37,10 @@
 			</van-popup>
 		</view>
 	</view>
-
 </template>
 
 <script>
+	import { pathToBase64, base64ToPath } from '../../js_sdk/gsq-image-tools/image-tools/index.js'
 	var x = 20;
 	var y =20;
 	export default {
@@ -117,8 +117,11 @@
 				this.isEditSinger = false;
 			},
 			onClose: function(){
-				this.showModal = false;
-
+				 this.showModal= false ;
+				 this.clear();
+			},
+			moveHandle(){
+				return;
 			},
 			//触摸开始，获取到起点
 				touchstart:function(e){
@@ -192,26 +195,20 @@
 						uni.canvasToTempFilePath({
 							  canvasId: 'mycanvas',
 							  success: function(res) {
-								 uni.request({
-									 url: res.tempFilePath,
-									 method:'GET',
-									 responseType: 'arraybuffer',
-									 success: ress => {
-										let base64 = wx.arrayBufferToBase64(ress.data); //把arraybuffer转成base64 
-										base64 = 'data:image/jpeg;base64,' + base64 //不加上这串字符，在页面无法显示的哦
-										uni.setStorageSync('imgBase', base64);
-										that.showModal = false;
-										that.isEditSinger = false;
-										that.isSinger = false;
-									 },
-									 fail: res => {
-										 uni.showToast({
-										     title:  '签名获取失败, 请稍后再试',
-										     duration: 2000,
-										 	icon: 'none'
-										 });
-									 }
-								   })
+								  pathToBase64(res.tempFilePath)  
+									.then(base64 => {  
+									   uni.setStorageSync('imgBase', base64);
+									   that.showModal = false;
+									   that.isEditSinger = false;
+									   that.isSinger = false;
+									})  
+									.catch(error => {  
+									  uni.showToast({
+										  title:  '签名获取失败, 请稍后再试',
+										  duration: 2000,
+										icon: 'none'
+									  }); 
+									})
 							},
 						});
 					}else{

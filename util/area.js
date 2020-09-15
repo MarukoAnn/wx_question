@@ -4037,6 +4037,6 @@ export default {
     820101: '澳门半岛',
     820201: '离岛'
   },
-  // env: 'https://www.softcasing.com',
-  env: 'https://wwjwxm.iask.in',
+  env: 'https://www.softcasing.com',
+  // env: 'https://wwjwxm.iask.in',
 };

@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.score-content {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #7399F7;
+}
+.score-content .content {
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+  overflow: scroll;
+}
+.score-content .content .title-image image {
+  width: 100%;
+  height: 30vh;
+}
+.score-content .content .score-view {
+  margin: 0 4vw;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  position: relative;
+  top: -7vh;
+  box-shadow: 13rpx 18rpx 15rpx #6E87C4;
+}
+.score-content .content .score-view .score-test {
+  margin-top: 2vh;
+  color: #000;
+  padding: 3vh 5vw;
+  position: relative;
+  font-size: 40rpx;
+  width: 82vw;
+}
+.score-content .content .score-view .score-test .score-btn {
+  text-align: center;
+  padding: 4vh 0;
+}
+.score-content .content .score-view .score-test .score-btn .main-btn {
+  width: 35vw;
+  background: #5CB7FF;
+  border-radius: 25px;
+  display: inline-block;
+  color: #fff;
+  box-shadow: 5px 8px 8px #D0EAFF;
+  text-align: center;
+  padding: 1vh 0;
+  margin: 1vh 2vw;
+}
+.score-content .content .score-view .score-test .score-takecare-btn {
+  text-align: center;
+  padding: 4vh 0;
+}
+.score-content .content .score-view .score-test .score-takecare-btn .takecare-btn {
+  width: 35vw;
+  background: #EDEDED;
+  border-radius: 25px;
+  display: inline-block;
+  height: 6vh;
+  line-height: 6vh;
+  color: #8F8F8F;
+  box-shadow: 2px 8px 3px #B2B2B2;
+  text-align: center;
+  outline: none;
+  margin: 1vh 3vw;
+}
+.score-content .content .score-view .score-test .score-takecare-btn .physical-script {
+  width: 100%;
+  border-radius: 15px;
+  background: #EAF6FF;
+  text-align: center;
+  color: #5EB8FF;
+  padding: 8vh 0vw;
+}
+.score-content .content .score-view .close-btn {
+  background: #FFEF6B;
+  border-radius: 45rpx;
+  width: 60vw;
+  position: absolute;
+  bottom: -27px;
+  margin-left: 16vw;
+  letter-spacing: 0.2em;
+  box-shadow: 0rpx 15rpx 0rpx #BDB258;
+}
+.score-content .content .score-view .close-btn .icon {
+  font-size: 26px;
+  vertical-align: middle;
+}
+

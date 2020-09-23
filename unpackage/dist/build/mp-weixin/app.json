@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/question/sexAge/qusetionOne",
+    "pages/score/physicalScore",
+    "pages/question/food/foodtwo",
+    "pages/question/sexAge/question_asthma",
+    "pages/question/food/foodScropt",
+    "pages/basic/basicInfo",
+    "pages/subscript/sub_protocol",
+    "pages/question/food/food_protocol",
+    "pages/subscript/subscript",
+    "pages/index/no_questionnaire",
+    "pages/select/selectAge",
+    "pages/score/success",
+    "pages/ownerQuestion/owerQuestion",
+    "pages/ownerQuestion/owerChildQuestion"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "问卷调查位置获取开发定位"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

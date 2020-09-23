@@ -256,9 +256,14 @@
 								return v.label === itemKey
 							})
 						let list = [];
-						list.push(setItem[0].name);
-						list.push(this.SumActualTotal[itemKey]);
-						return list;
+						// 判断不能体质重复
+						if (!this.physique_type.some(val => {
+							return val[0] === setItem[0].name;
+						})){
+							list.push(setItem[0].name);
+							list.push(this.SumActualTotal[itemKey]);
+							return list;
+						}
 					}
 				}
 			},
@@ -317,26 +322,20 @@
 								})
 								this.SumActualTotal[key] = Math.ceil(((this.SumActualTotal[key] / (list[0].value *4))*100));
 							}
-							
-							// 存储好
+							// 拿到数值数组
+							const temarr = [];
 							for(let iKey in this.SumActualTotal) {
-								if(Number(this.SumActualTotal[iKey]) > Number(this.max)){
-									this.max = this.SumActualTotal[iKey];
-								}
+								temarr.push(this.SumActualTotal[iKey])
 							}
+							// 获取最大值
+							this.max = Math.max.apply(null,temarr);
+							temarr.splice(temarr.indexOf(this.max), 1);
+							// 获取第二个最大值
+							this.secondMax = Math.max.apply(null,temarr)
+							// 获取第三个最大值
+							temarr.splice(temarr.indexOf(this.secondMax), 1);
+							this.thirdMax = Math.max.apply(null,temarr)
 							for(let itmKey in this.SumActualTotal ) {
-								if(Number(this.SumActualTotal[itmKey]) !== Number(this.max)){
-									if(Number(this.SumActualTotal[itmKey]) > Number(this.secondMax)){
-										this.secondMax = this.SumActualTotal[itmKey];
-									}
-								}
-							}
-							for(let itmKey in this.SumActualTotal ) {
-								if(Number(this.SumActualTotal[itmKey]) !== Number(this.max) && Number(this.SumActualTotal[itmKey]) !== Number(this.secondMax)){
-									if(Number(this.SumActualTotal[itmKey]) > Number(this.thirdMax)){
-										this.thirdMax = this.SumActualTotal[itmKey];
-									}
-								}
 								let list = []
 								this.SumTotalTree.forEach(val => {
 									if(val.label === itmKey){
@@ -349,50 +348,17 @@
 							this.physique_type.push(this.setQuestionFormat(this.max));
 							this.physique_type.push(this.setQuestionFormat(this.secondMax));
 							this.physique_type.push(this.setQuestionFormat(this.thirdMax));
-							console.log(this.thirdMax);
-							console.log(this.physique_type);
-							console.log(this.SumActualTotal);
-							// for(let itemKey in this.SumActualTotal) {
-							// 	if(Number(this.SumActualTotal[itemKey]) === Number(this.max)){
-							// 		let setItem = this.SumTotal.filter( v=> {
-							// 				return v.label === itemKey
-							// 			})
-							// 		let list = [];
-							// 		list.push(setItem[0].name);
-							// 		list.push(setItem[0].value);
-							// 		this.physique_type.push(list)
-							// 	}
-							// }
-							// for(let itemKey in this.SumActualTotal) {
-							// 	if(Number(this.SumActualTotal[itemKey]) === Number(this.secondMax)){
-							// 		let setItem = this.SumTotal.filter( v=> {
-							// 				return v.label === itemKey
-							// 			})
-							// 		let list = [];
-							// 		list.push(setItem[0].name);
-							// 		list.push(setItem[0].value);
-							// 		this.physique_type.push(list)
-							// 	}
-							// }
-					
-							// if(this.physique_type.length === 2) {
-							// 	if(this.physique_type[0] !== '特禀质') {
-							// 		this.physique_type.splice(1, 1)
-							// 	}else {
-							// 		if(this.physique_type[1] === '平和质'){
-							// 			this.physique_type.splice(1, 1);
-							// 		}
-							// 	}
-							// }else {
-							// this.physique_type = this.physique_type.slice(0, 3)
-							// 	if(this.physique_type[0] !== '特禀质') {
-							// 		this.physique_type.splice(1, 1)
-							// 	}else {
-							// 		if(this.physique_type[1] === '平和质'){
-							// 			this.physique_type.splice(1, 1);
-							// 		}
-							// 	}
-							// }
+							if(this.physique_type.some(val => {
+								return val[0] === '平和质'
+							})){
+								if(this.physique_type[0][0] !== '平和质'){
+									if(this.physique_type[1][0] === '平和质'){
+										this.physique_type.splice(1, 1);
+									}else{
+										this.physique_type.splice(2, 1);
+									}
+								}
+							}
 							let userInfo = JSON.parse(uni.getStorageSync('user_info'))
 							let child = JSON.parse(uni.getStorageSync('child'))
 							child.signature = uni.getStorageSync('imgBase');

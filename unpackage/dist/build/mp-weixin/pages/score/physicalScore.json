@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的体质",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "van-col": "/wxcomponents/vant/dist/col/index",
+    "van-icon": "/wxcomponents/vant/dist/icon/index"
+  }
+}

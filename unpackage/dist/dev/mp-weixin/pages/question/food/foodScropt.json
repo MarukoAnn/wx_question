@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "食物问卷说明",
+  "usingComponents": {
+    "van-icon": "/wxcomponents/vant/dist/icon/index"
+  }
+}

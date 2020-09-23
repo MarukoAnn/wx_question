@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "问卷选择",
+  "usingComponents": {
+    "van-button": "/wxcomponents/vant/dist/button/index",
+    "van-progress": "/wxcomponents/vant/dist/progress/index",
+    "van-icon": "/wxcomponents/vant/dist/icon/index"
+  }
+}

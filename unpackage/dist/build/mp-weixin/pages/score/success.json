@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "成功页面",
+  "usingComponents": {
+    "van-col": "/wxcomponents/vant/dist/col/index",
+    "van-icon": "/wxcomponents/vant/dist/icon/index"
+  }
+}

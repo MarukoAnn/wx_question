@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "饮食问卷",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "van-button": "/wxcomponents/vant/dist/button/index",
+    "van-progress": "/wxcomponents/vant/dist/progress/index",
+    "van-icon": "/wxcomponents/vant/dist/icon/index",
+    "van-row": "/wxcomponents/vant/dist/row/index",
+    "van-col": "/wxcomponents/vant/dist/col/index",
+    "van-field": "/wxcomponents/vant/dist/field/index",
+    "van-toast": "/wxcomponents/vant/dist/toast/index"
+  }
+}

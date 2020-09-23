@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "填写协议",
+  "usingComponents": {
+    "van-icon": "/wxcomponents/vant/dist/icon/index",
+    "van-radio-group": "/wxcomponents/vant/dist/radio-group/index",
+    "van-radio": "/wxcomponents/vant/dist/radio/index"
+  }
+}

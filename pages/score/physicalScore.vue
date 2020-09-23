@@ -61,7 +61,21 @@
 				// 获取分数以及体质名称
 				if(data.physique_type.length > 0) {
 					this.physique_type = data.physique_type;
-			        this.setListFormat();
+			        if(!this.physique_type.some(val => {
+			        	return val[0][1] ===undefined && val[0][1] ===null
+			        })){
+			        	if(this.physique_type.length === 3){
+			        		this.setListFormat();
+			        	}else{
+			        		if(this.physique_type[0][1] >= this.physique_type[1][1]){
+			        			this.physique_typeList.push(this.physique_type[0])
+			        			this.physique_typeList.push(this.physique_type[1])
+			        		}else{
+			        			this.physique_typeList.push(this.physique_type[1])
+			        			this.physique_typeList.push(this.physique_type[0])
+			        		}
+			        	}
+			        }
 					if(uni.getStorageSync('isdisease') !== 0){
 						this.btnText = '饮食问卷';
 						this.btn_return = true;
@@ -139,10 +153,20 @@
 									arr.push(Number(val.value));
 									that.physique_type.push(arr);
 								})
-								if((that.physique_type[0][1] !==undefined && that.physique_type[0][1] !==null)
-								&& (that.physique_type[1][1] !==undefined && that.physique_type[1][1] !==null)  
-								&&  (that.physique_type[2][1] !==undefined && that.physique_type[2][1] !==null) ){
-									that.setListFormat();
+								if(!that.physique_type.some(val => {
+									return val[0][1] ===undefined && val[0][1] ===null
+								})){
+									if(that.physique_type.length === 3){
+										that.setListFormat();
+									}else{
+										if(that.physique_type[0][1] >= that.physique_type[1][1]){
+											that.physique_typeList.push(that.physique_type[0])
+											that.physique_typeList.push(that.physique_type[1])
+										}else{
+											that.physique_typeList.push(that.physique_type[1])
+											that.physique_typeList.push(that.physique_type[0])
+										}
+									}
 								}else {
 									that.physique_typeList = that.physique_type;
 								}

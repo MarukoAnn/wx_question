@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "协议说明",
+  "usingComponents": {
+    "van-radio": "/wxcomponents/vant/dist/radio/index",
+    "van-radio-group": "/wxcomponents/vant/dist/radio-group/index",
+    "van-icon": "/wxcomponents/vant/dist/icon/index",
+    "van-popup": "/wxcomponents/vant/dist/popup/index"
+  }
+}

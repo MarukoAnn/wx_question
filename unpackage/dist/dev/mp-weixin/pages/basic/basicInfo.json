@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "基础信息",
+  "usingComponents": {
+    "van-dialog": "/wxcomponents/vant/dist/dialog/index",
+    "van-icon": "/wxcomponents/vant/dist/icon/index",
+    "van-field": "/wxcomponents/vant/dist/field/index",
+    "van-dropdown-menu": "/wxcomponents/vant/dist/dropdown-menu/index",
+    "van-dropdown-item": "/wxcomponents/vant/dist/dropdown-item/index",
+    "van-area": "/wxcomponents/vant/dist/area/index",
+    "van-popup": "/wxcomponents/vant/dist/popup/index",
+    "van-picker": "/wxcomponents/vant/dist/picker/index"
+  }
+}

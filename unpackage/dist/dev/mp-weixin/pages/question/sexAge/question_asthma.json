@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "哮喘答卷",
+  "usingComponents": {
+    "van-dialog": "/wxcomponents/vant/dist/dialog/index",
+    "van-icon": "/wxcomponents/vant/dist/icon/index",
+    "van-field": "/wxcomponents/vant/dist/field/index",
+    "van-button": "/wxcomponents/vant/dist/button/index",
+    "van-progress": "/wxcomponents/vant/dist/progress/index",
+    "van-row": "/wxcomponents/vant/dist/row/index",
+    "van-col": "/wxcomponents/vant/dist/col/index",
+    "van-toast": "/wxcomponents/vant/dist/toast/index"
+  }
+}

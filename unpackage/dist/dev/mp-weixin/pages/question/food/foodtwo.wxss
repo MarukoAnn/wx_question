@@ -1,0 +1,234 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.foodBody {
+  width: 100vw;
+  height: 100vh;
+  background: #FA8E74;
+  overflow: hidden;
+}
+.foodBody .question-content {
+  width: 100vw;
+  height: 100vh;
+}
+.foodBody .question-content .question-title-image {
+  position: relative;
+}
+.foodBody .question-content .question-title-image image {
+  width: 100%;
+  height: 30vh;
+}
+.foodBody .question-content .question-title {
+  position: relative;
+  top: -5.5vh;
+  /* 计数器选项 */
+  /* 选择问题选项 */
+}
+.foodBody .question-content .question-title .progress-bar {
+  background: #fff;
+  background: -webkit-radial-gradient(bottom right, circle, transparent 10px, #fff 0) bottom right, -webkit-radial-gradient(bottom left, circle, transparent 10px, #fff 0) bottom left, -webkit-radial-gradient(top left, circle, transparent 0px, #fff 0) top left, -webkit-radial-gradient(top right, circle, transparent 0px, #fff 0) top right;
+  background: radial-gradient(circle at bottom right, transparent 10px, #fff 0) bottom right, radial-gradient(circle at bottom left, transparent 10px, #fff 0) bottom left, radial-gradient(circle at top left, transparent 0px, #fff 0) top left, radial-gradient(circle at top right, transparent 0px, #fff 0) top right;
+  background-size: 51% 51%;
+  background-repeat: no-repeat;
+  margin: 0 4vw;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+  padding: 3vh 3vh 3vh 3vh;
+}
+.foodBody .question-content .question-title .progress-bar .bar {
+  text-align: left;
+  margin-top: 1vh;
+  text-align: center;
+}
+.foodBody .question-content .question-title .progress-bar .bar .bar-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 26rpx;
+}
+.foodBody .question-content .question-title .progress-bar .bar .out-bar {
+  width: 100%;
+  background: #FFFFFF;
+  height: 2vh;
+  border: 1px solid #DFDFDF;
+  border-radius: 35px;
+}
+.foodBody .question-content .question-title .progress-bar .bar .out-bar .inner-bar {
+  background: -webkit-linear-gradient(left, #366EEC 0%, #23C9F7 100%);
+  background: linear-gradient(to right, #366EEC 0%, #23C9F7 100%);
+  height: 80%;
+  margin: 2rpx 0;
+  border-radius: 35px;
+}
+.foodBody .question-content .question-title .questions-select-contion {
+  background: #fff;
+  width: 92vw;
+  background: -webkit-radial-gradient(bottom right, circle, transparent 0px, #fff 0) bottom right, -webkit-radial-gradient(bottom left, circle, transparent 0px, #fff 0) bottom left, -webkit-radial-gradient(top left, circle, transparent 10px, #fff 0) top left, -webkit-radial-gradient(top right, circle, transparent 10px, #fff 0) top right;
+  background: radial-gradient(circle at bottom right, transparent 0px, #fff 0) bottom right, radial-gradient(circle at bottom left, transparent 0px, #fff 0) bottom left, radial-gradient(circle at top left, transparent 10px, #fff 0) top left, radial-gradient(circle at top right, transparent 10px, #fff 0) top right;
+  background-size: 51% 51%;
+  background-repeat: no-repeat;
+  margin: -2px  auto;
+  height: auto;
+  padding-bottom: 8vh;
+  /* margin-bottom: 6vh; */
+  position: relative;
+  border-bottom-left-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list {
+  padding-top: 2vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question {
+  /* 填空多选带单选 */
+  /* margin: 2vh  0; */
+  /* 填空多选 */
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question .item-image {
+  border-radius: 10rpx;
+  padding: 0 0 2vh 0;
+  /* 错误提示的样式 */
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question .item-image select-item {
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+  padding: 1vh 3vw;
+  line-height: 25px;
+  border-radius: 10rpx;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question .item-image select-item .select-rand {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 4vw;
+  border-radius: 2rpx;
+  margin-bottom: 10rpx;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question .item-image .select-image {
+  margin-top: 1.5vh;
+  width: 100%;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question .item-image .select-image ._img {
+  width: 80vw;
+  height: 20vh;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question .item-image .select-image .select-check {
+  width: 80vw;
+  overflow: hidden;
+  padding: 1vh 0;
+  text-align: center;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question .item-image .select-image .select-check .select-check-item {
+  width: 12vw;
+  padding: 2vh 1vw 1vh 1vw;
+  margin: 0 2px;
+  display: inline-block;
+  border-radius: 5px;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question .item-image .select-image .select-check .select-check-item .check-icon {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  vertical-align: middle;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question .item-image .select-image .select-check .select-check-item .check-icon .check-icon-point {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  border-radius: 50%;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question .item-image .select-image .select-check .check-text {
+  display: block;
+  font-size: 16px;
+  width: 10vw;
+  margin: 1vh auto;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question .item-image .error-tip {
+  margin-left: 2vw;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question .item-image .error-tip image {
+  width: 14px;
+  height: 14px;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question .item-image .error-tip text {
+  margin-left: 2vw;
+  font-size: 12px;
+  color: red;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question .select-item {
+  margin-top: 4vh;
+  padding: 1vh 3vw;
+  line-height: 25px;
+  border-radius: 10rpx;
+  position: relative;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question .select-item .select-rand {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 4vw;
+  background: #fff;
+  border-radius: 3px;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question .select-item .select-icon {
+  position: absolute;
+  z-index: 9999;
+  left: 3.5vw;
+  top: 10px;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question-btn {
+  width: 93%;
+  bottom: -23px;
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question-btn .close-btn {
+  background: #FFEF6B;
+  border-radius: 45rpx;
+  box-shadow: 0rpx 15rpx 0rpx #BDB258;
+  width: 40vw;
+  margin: 0 auto;
+}
+.foodBody .question-content .question-title .questions-select-contion .question-list .question-btn .close-btn .icon {
+  font-size: 26px;
+  vertical-align: middle;
+}
+

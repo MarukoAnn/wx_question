@@ -8,17 +8,6 @@
 			}
 		},
 		{
-			"path": "pages/score/physicalScore",
-			"style": {
-				"usingComponents":{
-					"van-col": "/wxcomponents/vant/dist/col/index",
-					"van-icon": "/wxcomponents/vant/dist/icon/index"
-				},
-				"navigationBarTitleText": "我的体质",
-				"navigationBarBackgroundColor":"#FFFFFF"
-			}
-		},
-		{
 			"path": "pages/question/sexAge/qusetionOne",
 			"style": {
 				"usingComponents":{
@@ -29,6 +18,18 @@
 				"navigationBarTitleText": "问题答卷"
 			}
 		},
+		{
+			"path": "pages/score/physicalScore",
+			"style": {
+				"usingComponents":{
+					"van-col": "/wxcomponents/vant/dist/col/index",
+					"van-icon": "/wxcomponents/vant/dist/icon/index"
+				},
+				"navigationBarTitleText": "我的体质",
+				"navigationBarBackgroundColor":"#FFFFFF"
+			}
+		},
+	
 		{
 			"path": "pages/question/food/foodtwo",
 			"style": {

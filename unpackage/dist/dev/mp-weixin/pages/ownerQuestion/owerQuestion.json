@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "问卷列表选项",
+  "usingComponents": {
+    "van-icon": "/wxcomponents/vant/dist/icon/index"
+  }
+}

@@ -1,0 +1,231 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.body {
+  width: 100vw;
+  height: 100vh;
+  background: #7399F7;
+  overflow: hidden;
+}
+.body .question-content {
+  width: 100vw;
+  height: 100vh;
+}
+.body .question-content .question-title-image {
+  position: relative;
+}
+.body .question-content .question-title-image image {
+  width: 100%;
+  height: 30vh;
+}
+.body .question-content .question-title {
+  position: relative;
+  top: -5.5vh;
+  /* 计数器选项 */
+  /* 选择问题选项 */
+}
+.body .question-content .question-title .progress-bar {
+  background: #fff;
+  background: -webkit-radial-gradient(bottom right, circle, transparent 10px, #fff 0) bottom right, -webkit-radial-gradient(bottom left, circle, transparent 10px, #fff 0) bottom left, -webkit-radial-gradient(top left, circle, transparent 0px, #fff 0) top left, -webkit-radial-gradient(top right, circle, transparent 0px, #fff 0) top right;
+  background: radial-gradient(circle at bottom right, transparent 10px, #fff 0) bottom right, radial-gradient(circle at bottom left, transparent 10px, #fff 0) bottom left, radial-gradient(circle at top left, transparent 0px, #fff 0) top left, radial-gradient(circle at top right, transparent 0px, #fff 0) top right;
+  background-size: 51% 51%;
+  background-repeat: no-repeat;
+  /* height: 8vh; */
+  margin: 0 4vw;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+  padding: 3vh 3vh 6vh 3vh;
+  /* margin-bottom: 8vh; */
+}
+.body .question-content .question-title .progress-bar .bar {
+  text-align: center;
+}
+.body .question-content .question-title .progress-bar .bar .bar-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 26rpx;
+}
+.body .question-content .question-title .progress-bar .bar .out-bar {
+  width: 100%;
+  background: #FFFFFF;
+  height: 2vh;
+  border: 1px solid #DFDFDF;
+  border-radius: 35px;
+}
+.body .question-content .question-title .progress-bar .bar .out-bar .inner-bar {
+  background: -webkit-linear-gradient(left, #366EEC 0%, #23C9F7 100%);
+  background: linear-gradient(to right, #366EEC 0%, #23C9F7 100%);
+  height: 80%;
+  margin: 2rpx 0;
+  border-radius: 35px;
+}
+.body .question-content .question-title .questions-select-contion {
+  background: #fff;
+  width: 92vw;
+  background: -webkit-radial-gradient(bottom right, circle, transparent 0px, #fff 0) bottom right, -webkit-radial-gradient(bottom left, circle, transparent 0px, #fff 0) bottom left, -webkit-radial-gradient(top left, circle, transparent 10px, #fff 0) top left, -webkit-radial-gradient(top right, circle, transparent 10px, #fff 0) top right;
+  background: radial-gradient(circle at bottom right, transparent 0px, #fff 0) bottom right, radial-gradient(circle at bottom left, transparent 0px, #fff 0) bottom left, radial-gradient(circle at top left, transparent 10px, #fff 0) top left, radial-gradient(circle at top right, transparent 10px, #fff 0) top right;
+  background-size: 51% 51%;
+  background-repeat: no-repeat;
+  margin: 0  auto;
+  /* padding-bottom: 3vh; */
+  /* margin-bottom: 8vh; */
+  position: relative;
+  height: auto;
+  border-bottom-left-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+}
+.body .question-content .question-title .questions-select-contion .question-list {
+  padding-top: 4vh;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 6vh;
+}
+.body .question-content .question-title .questions-select-contion .question-list .question {
+  /* 有图片的样式 */
+  /* 没有图片的样式 */
+}
+.body .question-content .question-title .questions-select-contion .question-list .question .item-image {
+  margin-bottom: 4vh;
+  border-radius: 10rpx;
+  padding: 0 0 2vh 0;
+  position: relative;
+  /* 错误提示 */
+}
+.body .question-content .question-title .questions-select-contion .question-list .question .item-image .select-item {
+  margin-top: 1vh;
+  padding: 1vh 3vw;
+  line-height: 25px;
+  border-radius: 10rpx;
+}
+.body .question-content .question-title .questions-select-contion .question-list .question .item-image .select-item .select-rand {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 4vw;
+  border-radius: 2rpx;
+  margin-bottom: 10rpx;
+}
+.body .question-content .question-title .questions-select-contion .question-list .question .item-image .select-image {
+  margin-top: 1.5vh;
+  width: 100%;
+  padding-left: 3vw;
+}
+.body .question-content .question-title .questions-select-contion .question-list .question .item-image .select-image ._img {
+  width: calc(100% - 23px);
+  /* padding-right: 4vw; */
+}
+.body .question-content .question-title .questions-select-contion .question-list .question .item-image .select-image .select-check {
+  width: 80vw;
+  overflow: hidden;
+  padding: 1vh 0;
+  text-align: center;
+}
+.body .question-content .question-title .questions-select-contion .question-list .question .item-image .select-image .select-check .select-check-item {
+  width: 12vw;
+  padding: 2vh 1vw 1vh 1vw;
+  margin: 0 2px;
+  display: inline-block;
+  border-radius: 5px;
+}
+.body .question-content .question-title .questions-select-contion .question-list .question .item-image .select-image .select-check .select-check-item .check-icon {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  vertical-align: middle;
+}
+.body .question-content .question-title .questions-select-contion .question-list .question .item-image .select-image .select-check .select-check-item .check-icon .check-icon-point {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 50%;
+}
+.body .question-content .question-title .questions-select-contion .question-list .question .item-image .select-image .select-check .check-text {
+  display: block;
+  font-size: 16px;
+  width: 10vw;
+  margin: 1vh auto;
+}
+.body .question-content .question-title .questions-select-contion .question-list .question .item-image .error-tip {
+  margin-left: 2vw;
+}
+.body .question-content .question-title .questions-select-contion .question-list .question .item-image .error-tip image {
+  width: 14px;
+  height: 14px;
+}
+.body .question-content .question-title .questions-select-contion .question-list .question .item-image .error-tip text {
+  margin-left: 2vw;
+  font-size: 12px;
+  color: red;
+}
+.body .question-content .question-title .questions-select-contion .question-list .question .select-item {
+  margin-top: 4vh;
+  margin-bottom: 2vh;
+  padding: 1vh 3vw;
+  line-height: 25px;
+  border-radius: 10rpx;
+}
+.body .question-content .question-title .questions-select-contion .question-list .question .select-item .select-rand {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 4vw;
+  margin-bottom: 10rpx;
+}
+.body .question-content .question-title .questions-select-contion .question-list .question-btn {
+  width: 93%;
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  bottom: -23px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.body .question-content .question-title .questions-select-contion .question-list .question-btn .close-btn {
+  background: #FFEF6B;
+  border-radius: 45rpx;
+  box-shadow: 0rpx 15rpx 0rpx #BDB258;
+  width: 40vw;
+  margin: 0 auto;
+}
+.body .question-content .question-title .questions-select-contion .question-list .question-btn .close-btn .icon {
+  font-size: 26px;
+  vertical-align: middle;
+}
+

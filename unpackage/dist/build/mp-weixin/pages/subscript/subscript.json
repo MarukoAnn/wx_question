@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "问卷填写说明",
+  "usingComponents": {
+    "van-dialog": "/wxcomponents/vant/dist/dialog/index",
+    "van-icon": "/wxcomponents/vant/dist/icon/index"
+  }
+}

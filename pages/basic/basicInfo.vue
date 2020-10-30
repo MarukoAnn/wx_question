@@ -240,7 +240,7 @@
 			  if(!pass && (this.userinfoAge.month !== '')){
 				  if(this.testIpone.test(this.child.ptel)) {
 					  if( uni.getStorageSync('age') === '3'){
-						if(this.userinfoAge.age < 6 && this.userinfoAge.age >= 3){
+						if(this.userinfoAge.age <= 6 && this.userinfoAge.age >= 3){
 							if(this.userinfoAge.month < 12 && this.userinfoAge.age >0) {
 								if(uni.getStorageSync('area') === ''){
 									  uni.navigateTo({
@@ -267,7 +267,7 @@
 							});
 						}
 					  }else {
-						  if(this.userinfoAge.age < 14 && this.userinfoAge.age >= 6){
+						  if(this.userinfoAge.age <= 14 && this.userinfoAge.age >= 6){
 							if(this.userinfoAge.month < 12 && this.userinfoAge.age >0) {
 								if(uni.getStorageSync('area') === ''){
 									  uni.navigateTo({

@@ -152,7 +152,6 @@
 		},
 		onLoad(){
 			// const json = require('../../util/question.json');
-			// console.log()
 			if(uni.getStorageSync('age') === '3'){
 				this.title = '3~6岁儿童中医体质调查表';
 				// const json = require('../../util/question.json');
@@ -163,7 +162,6 @@
 				// this.total = json.question.length + 1;
 			}
 			this.areaList = jsonList;
-			// console.log(this.areaList);
 		},
 		methods:{
 		  selectSex: function(item){
@@ -332,7 +330,6 @@
 		  },
 		  // 填写年龄
 		  ageblur: function(e, label){
-	    	  console.log(e)
 			  if(label === 'age'){
 				 this.userinfoAge.age = e.detail.value;
 				 if(this.userinfoAge.month !== '') {

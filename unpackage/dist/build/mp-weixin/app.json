@@ -29,5 +29,6 @@
       "desc": "问卷调查位置获取开发定位"
     }
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
 }

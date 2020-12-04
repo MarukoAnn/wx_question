@@ -76,11 +76,12 @@
 			        		}
 			        	}
 			        }
-					if(uni.getStorageSync('isdisease') !== 0){
+					if(uni.getStorageSync('isdisease') !== '0'){
 						this.btnText = '饮食问卷';
 						this.btn_return = true;
 					}else {
-						if(JSON.parse(uni.getStorageSync('isdisStatus')).includes('是')){
+						if(JSON.parse(uni.getStorageSync('isdisStatus')).includes('是')
+						|| JSON.parse(uni.getStorageSync('isShowFood')).some(v => {return v !== '从不'})){
 							this.btnText = '饮食问卷';
 							this.btn_return = true;
 						}else{

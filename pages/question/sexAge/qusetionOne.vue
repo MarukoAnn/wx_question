@@ -489,6 +489,32 @@
 						}
 					}
 				})
+			    // 判断 是否选了从不
+				if(uni.getStorageSync('age') === '3'){
+					let arr = [];
+					let index = [8,9,10,11];
+					index.forEach(res => {
+						this.questionjson.question[15].
+						select[res].color.questionImageSelect.forEach(v_item => {
+							if(v_item.color.status === 1) {
+								arr.push(v_item.label)
+							}
+						})
+					})
+					uni.setStorageSync('isShowFood', JSON.stringify(arr))
+				}else{
+					let arr = [];
+					let index = [14,15,16,17];
+					index.forEach(res => {
+						this.questionjson.question[17].
+						select[res].color.questionImageSelect.forEach(v_item => {
+							if(v_item.color.status === 1) {
+								arr.push(v_item.label)
+							}
+						})
+					})
+					uni.setStorageSync('isShowFood', JSON.stringify(arr))
+				}
 				uni.setStorageSync('isdisStatus', JSON.stringify(this.isdisStatus))
 				this.questionjson.question.forEach(v => {
 					// 判断属于哪一种类型的题

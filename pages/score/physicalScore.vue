@@ -12,14 +12,17 @@
 				   <text style="color: #AFAFAF">您孩子的体质属于</text>
 				   <view class="score-btn" >
 				   	  <view class="main-btn" v-for="item in physique_typeList" :key="item">
-					    <view >{{item[0]}}</view>
-						<view style="font-size: 16px" v-if="item[1] !== null">{{item[1] === null? '': item[1]}}分</view>
+					    <view >{{item.name}}</view>
+						<view style="font-size: 16px" v-if="item.value">{{item.value === null? '': item.value}}分</view>
 					  </view>
 				   </view>
-				  <!-- <view style="color: #A8A8A8;display: none;" >兼顾</view> -->
+				  <view style="color: #A8A8A8;" v-if="physique_type_enable.length !== 0" >倾向</view>
 				  <view style="color: #A8A8A8;" ></view>
-				  <view class="score-takecare-btn" style="display: none;">
-						<button class="takecare-btn" v-for="(item, index) in physique_type_enable" :key="index">{{item}}</button>
+				  <view class="score-btn">
+					<view class="main-btn" v-for="item in physique_type_enable" :key="item">
+					    <view >{{item.name}}</view>
+						<view style="font-size: 16px" v-if="item.value">{{item.value === null? '': item.value}}分</view>
+					</view>
 				   </view>
 				<!--   <view class="score-takecare-btn" v-if="!btn_return">
 				   		<button class="takecare-btn-return">xx体质</button>
@@ -50,6 +53,7 @@
 					],
 				btnText: '返回',
 				btn_return: false,
+				indexFlag: null,
 				physique_type: [],
 				physique_typeList: [],
 				physique_type_enable: []
@@ -76,62 +80,10 @@
 			        		}
 			        	}
 			        }
-					if(uni.getStorageSync('isdisease') !== '0'){
-						this.btnText = '饮食问卷';
-						this.btn_return = true;
-					}else {
-						if(JSON.parse(uni.getStorageSync('isdisStatus')).includes('是')
-						|| JSON.parse(uni.getStorageSync('isShowFood')).some(v => {return v !== '从不'})){
-							this.btnText = '饮食问卷';
-							this.btn_return = true;
-						}else{
-							this.btnText = '返回';
-							this.btn_return = false;
-						}
-					}
-				}
-		  //       if(this.physique_type_enable > 0) {
-				// 	this.physique_type_enable = data.physique_type_enable;
-				// }
-			},
-		    setListFormat: function(){
-				// 判断第一个是不是最大
-				if(this.physique_type[0][1] >= this.physique_type[1][1] && this.physique_type[0][1] >= this.physique_type[2][1])
-				{
-					console.log(123)
-					this.physique_typeList.push(this.physique_type[0])
-					// 判断后面两个函数谁大
-					if(this.physique_type[1][1] >= this.physique_type[2][1]){
-						this.physique_typeList.push(this.physique_type[1])
-						this.physique_typeList.push(this.physique_type[2])
-					}else{
-						this.physique_typeList.push(this.physique_type[2])
-						this.physique_typeList.push(this.physique_type[1])
-					}
-				// 判断第一个比第二大吗 
-				}else if(this.physique_type[0][1] >= this.physique_type[1][1]){
-					//  判断 第一个比第三个大吗
-						this.physique_typeList.push(this.physique_type[2])
-						this.physique_typeList.push(this.physique_type[0])
-						this.physique_typeList.push(this.physique_type[1])
-				}else if(this.physique_type[0][1] >= this.physique_type[2][1]){
-					this.physique_typeList.push(this.physique_type[1])
-					this.physique_typeList.push(this.physique_type[0])
-					this.physique_typeList.push(this.physique_type[2])
-				}else {
-					// 判断后面两个函数谁大
-					if(this.physique_type[1][1] >= this.physique_type[2][1] ){
-						this.physique_typeList.push(this.physique_type[1])
-						this.physique_typeList.push(this.physique_type[2])
-						this.physique_typeList.push(this.physique_type[0])
-					}else{
-						this.physique_typeList.push(this.physique_type[2])
-						this.physique_typeList.push(this.physique_type[1])
-						this.physique_typeList.push(this.physique_type[0])
-					}
+					
 				}
 			},
-			getedScore: function(){
+		   getedScore: function(){
 				let that = this;
 				let userInfo = JSON.parse(uni.getStorageSync('user_info'))
 				let report_id = uni.getStorageSync('report_Id')
@@ -148,29 +100,7 @@
 				    success: function (res) {
 						if(res.data.status === '1000'){
 							if(res.data.data.physique_type.length !== 0){
-								res.data.data.physique_type.forEach(val => {
-									let arr = [];
-									arr.push(val.name);
-									arr.push(Number(val.value));
-									that.physique_type.push(arr);
-								})
-								if(!that.physique_type.some(val => {
-									return val[0][1] ===undefined && val[0][1] ===null
-								})){
-									if(that.physique_type.length === 3){
-										that.setListFormat();
-									}else{
-										if(that.physique_type[0][1] >= that.physique_type[1][1]){
-											that.physique_typeList.push(that.physique_type[0])
-											that.physique_typeList.push(that.physique_type[1])
-										}else{
-											that.physique_typeList.push(that.physique_type[1])
-											that.physique_typeList.push(that.physique_type[0])
-										}
-									}
-								}else {
-									that.physique_typeList = that.physique_type;
-								}
+								that.setPhysiqueTypeList(res.data.data.physique_type)
 							}
 							if(res.data.data.is_diet === '1'){
 								if(res.data.data.is_do === '0'){
@@ -209,13 +139,38 @@
 						url: '../select/selectAge'
 					})
 				}
+			},
+			setPhysiqueTypeList: function (data){
+				data.forEach((v, index) => {
+					if(v.name == '倾向'){
+						this.indexFlag = index;
+					}
+				})
+				if(this.indexFlag){
+					this.physique_typeList = data.slice(0, this.indexFlag);
+					this.physique_type_enable = data.slice(this.indexFlag + 1, data.length);
+				}else{
+					this.physique_typeList = data;
+				}
+				
 			}
 		},
 		onLoad(option) {
 			if(option.value === '5'){
-				let data =  uni.getStorageSync('physique')
-				this.title =JSON.parse(data).title;
-				this.getScore(JSON.parse(data));
+				this.setPhysiqueTypeList(JSON.parse(uni.getStorageSync('results')));
+				if(uni.getStorageSync('isdisease') !== '0'){
+					this.btnText = '饮食问卷';
+					this.btn_return = true;
+				}else {
+					if(JSON.parse(uni.getStorageSync('isdisStatus')).includes('是')
+					|| JSON.parse(uni.getStorageSync('isShowFood')).some(v => {return v !== '从不'})){
+						this.btnText = '饮食问卷';
+						this.btn_return = true;
+					}else{
+						this.btnText = '返回';
+						this.btn_return = false;
+					}
+				}
 			}else {
 				this.titleList.forEach( v => {
 					if(v.key === option.value){
@@ -224,6 +179,7 @@
 				})
 				this.getedScore();
 			}
+			
 		}
 	}
 </script>
@@ -251,7 +207,7 @@
 				background: #FFFFFF;
 				border-radius: 20rpx;
 				position: relative;
-				top: -7vh;
+				top: -8vh;
 				box-shadow: 13rpx 18rpx 15rpx #6E87C4;
 				// text-align: center;
 				.score-test {

@@ -6,7 +6,7 @@
 		  		<view style="position: absolute;color:#fff;top:8.4vh;right:10vw;width: 46vw;text-align: center;">
 		  				<text style="font-size: 1.2rem;">{{title}}</text>
 		  		</view>
-		  		<image src="https://www.softcasing.com/images/view/ic_wx_bgc.png" mode=""></image>
+		  		<image src="https://www.softcasing.com/images/view/ic_basic_title.png" mode=""></image>
 		  	</view>
 		  	<view class="content-view">
 		  	   <view class="subcript-test">

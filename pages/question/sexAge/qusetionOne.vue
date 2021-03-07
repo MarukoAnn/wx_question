@@ -5,7 +5,7 @@
 				<view style="position: absolute;color:#fff;top:8vh;right:10vw;width: 46vw;text-align: center;">
 						<text>{{title}}</text>
 				</view>
-				<image src="https://www.softcasing.com/images/view/ic_basic_title.png"></image>
+				<image src="https://www.softcasing.com/images/view/ic_cs_title.png"></image>
 			</view>
 					<view class="question-title">
 				<!-- 头部标题 -->
@@ -327,14 +327,13 @@
 							for(let iKey in this.SumActualTotal) {
 								temarr.push(this.SumActualTotal[iKey])
 							}
-							// 获取最大值
-							this.max = Math.max.apply(null,temarr);
-							temarr.splice(temarr.indexOf(this.max), 1);
-							// 获取第二个最大值
-							this.secondMax = Math.max.apply(null,temarr)
-							// 获取第三个最大值
-							temarr.splice(temarr.indexOf(this.secondMax), 1);
-							this.thirdMax = Math.max.apply(null,temarr)
+							// console.log(temarr)
+							// console.log(this.SumActualTotal)
+							// if(uni.getStorageSync('age') === '3'){
+							// 	this.clacThreePhysique(temarr)
+							// }else{
+							// 	this.clacSevenPhysique(temarr)
+							// }
 							for(let itmKey in this.SumActualTotal ) {
 								let list = []
 								this.SumTotalTree.forEach(val => {
@@ -344,20 +343,6 @@
 									}
 								})
 								this.physique_result_list.push(list);
-							}
-							this.physique_type.push(this.setQuestionFormat(this.max));
-							this.physique_type.push(this.setQuestionFormat(this.secondMax));
-							this.physique_type.push(this.setQuestionFormat(this.thirdMax));
-							if(this.physique_type.some(val => {
-								return val[0] === '平和质'
-							})){
-								if(this.physique_type[0][0] !== '平和质'){
-									if(this.physique_type[1][0] === '平和质'){
-										this.physique_type.splice(1, 1);
-									}else{
-										this.physique_type.splice(2, 1);
-									}
-								}
 							}
 							let userInfo = JSON.parse(uni.getStorageSync('user_info'))
 							let child = JSON.parse(uni.getStorageSync('child'))
@@ -372,7 +357,6 @@
 								   child.is_diet = 0;
 								}
 							}
-							uni.setStorageSync('physique', JSON.stringify({physique_type: this.physique_type,physique_type_enable: this.physique_type_enable, title: this.title}))
 							uni.showLoading({
 							    title: '加载中'
 							});
@@ -402,7 +386,7 @@
 											url: '../../score/physicalScore?value=5'
 										})
 										that.max = that.thirdMax = that.secondMax = 0;
-										that.physique_type = [];		
+										uni.setStorageSync('results', JSON.stringify(res.data.data.physique_type))
 										uni.showToast({
 										    title: res.data.msg,
 										    duration: 2000
@@ -468,8 +452,7 @@
 			},
 			// 计算分数
 			setfitnessSum: function(){
-				this.isdisStatus = [];
-				
+				this.isdisStatus = [];	
 				// 计算分数
 				this.questionjson.question[0].select.forEach(v=> {
 					if(v.status == 1){
@@ -561,7 +544,6 @@
 				uni.getUserInfo({
 					provider: 'weixin',
 					success: function(infoRes) {
-						console.log(infoRes)
 						that.user_info.nikename = infoRes.userInfo.nickName; //昵称
 						that.user_info.sex = infoRes.userInfo.gender
 						uni.setStorageSync('user_info', JSON.stringify(that.user_info))
@@ -650,7 +632,7 @@
 						});
 					}
 				});
-			}
+			},
 		},
 	}
 </script>

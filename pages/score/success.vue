@@ -5,7 +5,7 @@
 				<view style="position: absolute;color:#fff;top:9vh;right:10vw;width: 46vw;text-align: center;">
 						<text>{{title}}</text>
 				</view>
-				<image src="https://www.softcasing.com/images/view/ic_wx_bgc.png"></image>
+				<image src="https://www.softcasing.com/images/view/ic_basic_title.png"></image>
 			</view>
 			<view class="score-view">
 			   <view class="score-test">

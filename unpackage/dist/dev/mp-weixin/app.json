@@ -1,18 +1,18 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/score/success",
+    "pages/question/food/food_protocol",
     "pages/question/sexAge/qusetionOne",
-    "pages/score/physicalScore",
     "pages/question/food/foodtwo",
     "pages/question/sexAge/question_asthma",
+    "pages/score/physicalScore",
     "pages/question/food/foodScropt",
     "pages/basic/basicInfo",
     "pages/subscript/sub_protocol",
-    "pages/question/food/food_protocol",
     "pages/subscript/subscript",
     "pages/index/no_questionnaire",
     "pages/select/selectAge",
-    "pages/score/success",
     "pages/ownerQuestion/owerQuestion",
     "pages/ownerQuestion/owerChildQuestion"
   ],
@@ -29,6 +29,5 @@
       "desc": "问卷调查位置获取开发定位"
     }
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap9.json"
+  "usingComponents": {}
 }

@@ -8,6 +8,27 @@
 			}
 		},
 		{
+			"path": "pages/score/success",
+			"style": {
+				"usingComponents":{
+					"van-col": "/wxcomponents/vant/dist/col/index",
+					"van-icon": "/wxcomponents/vant/dist/icon/index"
+				},
+				"navigationBarTitleText": "成功页面"
+			}
+		},
+		{
+			"path": "pages/question/food/food_protocol",
+			"style": {
+				"usingComponents":{
+					"van-icon": "/wxcomponents/vant/dist/icon/index",
+					"van-radio-group": "/wxcomponents/vant/dist/radio-group/index",
+					"van-radio": "/wxcomponents/vant/dist/radio/index"
+				},
+				"navigationBarTitleText": "填写协议"
+			}
+		},
+		{
 			"path": "pages/question/sexAge/qusetionOne",
 			"style": {
 				"usingComponents":{
@@ -18,18 +39,7 @@
 				"navigationBarTitleText": "问题答卷"
 			}
 		},
-		{
-			"path": "pages/score/physicalScore",
-			"style": {
-				"usingComponents":{
-					"van-col": "/wxcomponents/vant/dist/col/index",
-					"van-icon": "/wxcomponents/vant/dist/icon/index"
-				},
-				"navigationBarTitleText": "我的体质",
-				"navigationBarBackgroundColor":"#FFFFFF"
-			}
-		},
-	
+		
 		{
 			"path": "pages/question/food/foodtwo",
 			"style": {
@@ -46,6 +56,8 @@
 				"navigationBarBackgroundColor":"#FFFFFF"
 			}
 		},
+
+	
 		{
 			"path": "pages/question/sexAge/question_asthma",
 			"style": {
@@ -62,7 +74,23 @@
 				"navigationBarTitleText": "哮喘答卷"
 			}
 		},
-		
+
+	
+		{
+			"path": "pages/score/physicalScore",
+			"style": {
+				"usingComponents":{
+					"van-col": "/wxcomponents/vant/dist/col/index",
+					"van-icon": "/wxcomponents/vant/dist/icon/index"
+				},
+				"navigationBarTitleText": "我的体质",
+				"navigationBarBackgroundColor":"#FFFFFF"
+			}
+		},
+	
+	
+	
+	
 		{
 			"path": "pages/question/food/foodScropt",
 			"style": {
@@ -101,17 +129,7 @@
 			}
 		},
 		
-		{
-			"path": "pages/question/food/food_protocol",
-			"style": {
-				"usingComponents":{
-					"van-icon": "/wxcomponents/vant/dist/icon/index",
-					"van-radio-group": "/wxcomponents/vant/dist/radio-group/index",
-					"van-radio": "/wxcomponents/vant/dist/radio/index"
-				},
-				"navigationBarTitleText": "填写协议"
-			}
-		},
+	
 		{
 			"path": "pages/subscript/subscript",
 			"style": {
@@ -147,16 +165,6 @@
 			}
 		},
 	
-		{
-			"path": "pages/score/success",
-			"style": {
-				"usingComponents":{
-					"van-col": "/wxcomponents/vant/dist/col/index",
-					"van-icon": "/wxcomponents/vant/dist/icon/index"
-				},
-				"navigationBarTitleText": "成功页面"
-			}
-		},
 		{
 			"path": "pages/ownerQuestion/owerQuestion",
 			"style": {

@@ -5,7 +5,7 @@
 				<view style="position: absolute;color:#fff;top:10vh;right:10vw;width: 46vw;text-align: center;">
 						<text style="letter-spacing: 2px;font-size: 20px;">饮食问卷</text>
 				</view>
-				<image src="https://www.softcasing.com/images/view/ic_wx_bgc.png" mode=""></image>
+				<image src="https://www.softcasing.com/images/view/ic_basic_title.png" mode=""></image>
 			</view>
 			<view class="question-title">
 				<!-- 头部标题 -->

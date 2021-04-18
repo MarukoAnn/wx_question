@@ -6,6 +6,7 @@
 						<text>{{title}}</text>
 				</view>
 				<image src="https://www.softcasing.com/images/view/ic_basic_title.png"></image>
+				
 			</view>
 					<view class="question-title">
 				<!-- 头部标题 -->

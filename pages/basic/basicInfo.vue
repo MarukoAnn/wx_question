@@ -1,7 +1,7 @@
 <template>
 	<view class="info-content">
 		<view :style="{marginTop: indexSearchBar + 'px'}">
-			<uni-nav-bar left-icon="back" left-text="返回" right-text="菜单" title="加载页"></uni-nav-bar>
+			<uni-nav-bar left-icon="back" left-text="返回" right-text="菜单" titlse="加载页"></uni-nav-bar>
 		</view>
 		<view class="basic-content">
 			<view class="title-image">
@@ -265,7 +265,7 @@
 							});
 						}
 					  }else {
-						  if(this.userinfoAge.age <= 14 && this.userinfoAge.age >= 6){
+						  if(this.userinfoAge.age <= 14 && this.userinfoAge.age >= 7){
 							if(this.userinfoAge.month < 12 && this.userinfoAge.age >0) {
 								if(uni.getStorageSync('area') === ''){
 									  uni.navigateTo({

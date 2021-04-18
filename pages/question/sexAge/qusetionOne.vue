@@ -5,7 +5,7 @@
 				<view style="position: absolute;color:#fff;top:8vh;right:10vw;width: 46vw;text-align: center;">
 						<text>{{title}}</text>
 				</view>
-				<image src="https://www.softcasing.com/images/view/ic_cs_title.png"></image>
+				<image src="https://www.softcasing.com/images/view/ic_basic_title.png"></image>
 			</view>
 					<view class="question-title">
 				<!-- 头部标题 -->
@@ -142,16 +142,16 @@
 					{label: 'xk_value', value: 23, name: '血亏质'},
 				],
 				SumTotalSex: [
-					{label: 'ph_value', value: 56, name: '平和质'}, 
-					{label: 'qx_value', value: 67, name: '气虚质'},
-					{label: 'yx_value', value: 52, name: '阴虚质'},
-					{label: 'ya_value', value: 48, name: '阳虚质'},
-					{label: 'ts_value', value: 54, name: '痰湿质'},
-					{label: 'sr_value', value: 55, name: '湿热质'},
+					{label: 'ph_value', value: 41, name: '平和质'}, 
+					{label: 'qx_value', value: 34, name: '气虚质'},
+					{label: 'yx_value', value: 39, name: '阴虚质'},
+					{label: 'ya_value', value: 29, name: '阳虚质'},
+					{label: 'ts_value', value: 31, name: '痰湿质'},
+					{label: 'sr_value', value: 43, name: '湿热质'},
 					{label: 'qy_value', value: 23, name: '气郁质'},
 					{label: 'tb_value', value: 30, name: '特禀质'},
-					{label: 'yr_value', value: 58, name: '阳热质'},
-					{label: 'xk_value', value: 30, name: '血亏质'},
+					{label: 'yr_value', value: 50, name: '阳热质'},
+					{label: 'xk_value', value: 28, name: '血亏质'},
 				],
 				// 一定是的体质：
 				physique_type: [],
@@ -173,7 +173,7 @@
 				this.questionjson = require('../../../util/question_change.json');
 				this.SumTotal = this.SumTotalTree;
 			}else {
-				this.title = '6~14岁儿童中医体质调查表'
+				this.title = '7~14岁儿童中医体质调查表'
 				this.questionjson = require('../../../util/question_two.json');
 				this.SumTotal = this.SumTotalSex;
 			}
@@ -315,6 +315,7 @@
 					}else {
 						    this.physique_answer_list = []
 							this.setfitnessSum();
+							console.log(this.SumTotal)
 							for(let key in this.SumActualTotal) {
 								// console.log(this.SumActualTotal[key])
 								const list = this.SumTotal.filter( v=> {
@@ -525,7 +526,6 @@
 									this.answer.push(v_item.label)
 									// 单选以后开始汇总
 									for(let mapKeys in this.SumActualTotal){
-				
 									  this.SumActualTotal[mapKeys] += (item.value[mapKeys] * v_item.color.value);
 									}
 									arr.push(v_item.label)

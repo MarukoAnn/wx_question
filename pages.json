@@ -8,6 +8,27 @@
 			}
 		},
 		{
+			"path": "pages/question/food/foodScropt",
+			"style": {
+				"usingComponents":{
+					"van-icon": "/wxcomponents/vant/dist/icon/index"
+				},
+				"navigationBarTitleText": "食物问卷说明"
+			}
+		},
+		{
+			"path": "pages/question/sexAge/qusetionOne",
+			"style": {
+				"usingComponents":{
+					"van-dialog": "/wxcomponents/vant/dist/dialog/index",
+					 "van-icon": "/wxcomponents/vant/dist/icon/index",
+					 "van-field": "/wxcomponents/vant/dist/field/index"
+				},
+				"navigationBarTitleText": "问题答卷"
+			}
+		},
+		
+		{
 			"path": "pages/score/success",
 			"style": {
 				"usingComponents":{
@@ -28,17 +49,23 @@
 				"navigationBarTitleText": "填写协议"
 			}
 		},
+	
 		{
-			"path": "pages/question/sexAge/qusetionOne",
+			"path": "pages/subscript/sub_protocol",
 			"style": {
+				"navigationBarTitleText": "协议说明",
 				"usingComponents":{
-					"van-dialog": "/wxcomponents/vant/dist/dialog/index",
+					"van-radio": "/wxcomponents/vant/dist/radio/index",
+					 "van-radio-group": "/wxcomponents/vant/dist/radio-group/index",
 					 "van-icon": "/wxcomponents/vant/dist/icon/index",
-					 "van-field": "/wxcomponents/vant/dist/field/index"
-				},
-				"navigationBarTitleText": "问题答卷"
+					  "van-popup": "/wxcomponents/vant/dist/popup/index"
+				}
 			}
 		},
+		
+		
+	
+		
 		
 		{
 			"path": "pages/question/food/foodtwo",
@@ -91,15 +118,7 @@
 	
 	
 	
-		{
-			"path": "pages/question/food/foodScropt",
-			"style": {
-				"usingComponents":{
-					"van-icon": "/wxcomponents/vant/dist/icon/index"
-				},
-				"navigationBarTitleText": "食物问卷说明"
-			}
-		},
+		
 		{
 			"path": "pages/basic/basicInfo",
 			"style": {
@@ -116,18 +135,7 @@
 				"navigationBarTitleText": "基础信息"
 			}
 		},
-		{
-			"path": "pages/subscript/sub_protocol",
-			"style": {
-				"navigationBarTitleText": "协议说明",
-				"usingComponents":{
-					"van-radio": "/wxcomponents/vant/dist/radio/index",
-					 "van-radio-group": "/wxcomponents/vant/dist/radio-group/index",
-					 "van-icon": "/wxcomponents/vant/dist/icon/index",
-					  "van-popup": "/wxcomponents/vant/dist/popup/index"
-				}
-			}
-		},
+		
 		
 	
 		{

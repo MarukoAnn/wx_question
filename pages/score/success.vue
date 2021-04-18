@@ -5,7 +5,7 @@
 				<view style="position: absolute;color:#fff;top:9vh;right:10vw;width: 46vw;text-align: center;">
 						<text>{{title}}</text>
 				</view>
-				<image src="https://www.softcasing.com/images/view/ic_basic_title.png"></image>
+				<image src="https://www.softcasing.com/images/view/ic_cs_title.png"></image>
 			</view>
 			<view class="score-view">
 			   <view class="score-test">
@@ -116,11 +116,11 @@
 					text-align: center;
 					.score-image {
 						// position: absolute;
-						margin-top: 4vh;
+						margin-top: 6vh;
 						margin-bottom: 2vh;
 						image {
-							height: 30vw;
-							width: 30vw;
+							height: 36vw;
+							width: 36vw;
 						}
 					}
 					.physical-script {

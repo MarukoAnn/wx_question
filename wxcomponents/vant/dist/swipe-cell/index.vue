@@ -1,5 +1,5 @@
 <template>
-<uni-shadow-root class="vant-dist-swipe-cell-index"><view class="van-swipe-cell" data-key="cell" @click.stop.prevent="onClick" @touchstart="startDrag" @touchmove.stop.prevent="catchMove ? 'noop' : ''" @touchmove.capture="onDrag" @touchend.stop.prevent="endDrag" @touchcancel.stop.prevent="endDrag">
+<uni-shadow-root class="vant-dist-swipe-cell-index"><view class="van-swipe-cell" data-key="cell" @click.stop.prevent="onClick" @touchstart="startDrag" @touchmove.stop.prevent="_$self[(catchMove ? 'noop' : '')||'_$noop']($event)" @touchmove.capture="onDrag" @touchend.stop.prevent="endDrag" @touchcancel.stop.prevent="endDrag">
   <view :style="wrapperStyle">
     <view v-if="leftWidth" class="van-swipe-cell__left" data-key="left" @click.stop.prevent="onClick">
       <slot name="left"></slot>

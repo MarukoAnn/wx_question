@@ -130,16 +130,16 @@
 				// 总值
 				SumTotal: [],
 				SumTotalTree: [
-					{label: 'ph_value', value: 56, name: '平和质'}, 
-					{label: 'qx_value', value: 67, name: '气虚质'},
-					{label: 'yx_value', value: 52, name: '阴虚质'},
-					{label: 'ya_value', value: 48, name: '阳虚质'},
-					{label: 'ts_value', value: 51, name: '痰湿质'},
-					{label: 'sr_value', value: 55, name: '湿热质'},
+					{label: 'ph_value', value: 34, name: '平和质'}, 
+					{label: 'qx_value', value: 34, name: '气虚质'},
+					{label: 'yx_value', value: 38, name: '阴虚质'},
+					{label: 'ya_value', value: 29, name: '阳虚质'},
+					{label: 'ts_value', value: 22, name: '痰湿质'},
+					{label: 'sr_value', value: 36, name: '湿热质'},
 					{label: 'qy_value', value: 23, name: '气郁质'},
 					{label: 'tb_value', value: 30, name: '特禀质'},
-					{label: 'yr_value', value: 58, name: '阳热质'},
-					{label: 'xk_value', value: 23, name: '血亏质'},
+					{label: 'yr_value', value: 35, name: '阳热质'},
+					{label: 'xk_value', value: 1, name: '血亏质'},
 				],
 				SumTotalSex: [
 					{label: 'ph_value', value: 41, name: '平和质'}, 
@@ -488,9 +488,9 @@
 					uni.setStorageSync('isShowFood', JSON.stringify(arr))
 				}else{
 					let arr = [];
-					let index = [14,15,16,17];
+					let index = [13,14,15,16];
 					index.forEach(res => {
-						this.questionjson.question[17].
+						this.questionjson.question[16].
 						select[res].color.questionImageSelect.forEach(v_item => {
 							if(v_item.color.status === 1) {
 								arr.push(v_item.label)

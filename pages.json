@@ -8,15 +8,6 @@
 			}
 		},
 		{
-			"path": "pages/question/food/foodScropt",
-			"style": {
-				"usingComponents":{
-					"van-icon": "/wxcomponents/vant/dist/icon/index"
-				},
-				"navigationBarTitleText": "食物问卷说明"
-			}
-		},
-		{
 			"path": "pages/question/sexAge/qusetionOne",
 			"style": {
 				"usingComponents":{
@@ -27,6 +18,16 @@
 				"navigationBarTitleText": "问题答卷"
 			}
 		},
+		{
+			"path": "pages/question/food/foodScropt",
+			"style": {
+				"usingComponents":{
+					"van-icon": "/wxcomponents/vant/dist/icon/index"
+				},
+				"navigationBarTitleText": "食物问卷说明"
+			}
+		},
+	
 		
 		{
 			"path": "pages/score/success",

@@ -90,7 +90,7 @@
 					},"status": 0, "value": {
 						"ph_value": 5,
 						"qx_value": 0,
-						"yx_value": 2,
+						"yx_value": 0,
 						"ya_value": 0,
 						"ts_value": 0,
 						"sr_value": 0,
@@ -121,8 +121,8 @@
 						"itemBgc": "#F7F7F7"
 					}, "status": 0,"value":  {
 						"ph_value": 0,
-						"qx_value": 5,
-						"yx_value": 0,
+						"qx_value": 0,
+						"yx_value": 5,
 						"ya_value": 0,
 						"ts_value": 0,
 						"sr_value": 0,
@@ -1559,7 +1559,7 @@
 						}
 					}]
 			}, "status" : 0},
-			{"item": "C.吃凉的食物容易出现腹泻、腹痛","imageurl": "","focus":"C","error": "false", "value": {
+			{"item": "C.吃凉的食物会不舒服","imageurl": "","focus":"C","error": "false", "value": {
 				"ph_value": 0,
 				"qx_value": 0,
 				"yx_value": 0,
